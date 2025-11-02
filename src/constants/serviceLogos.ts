@@ -4,7 +4,7 @@ export const serviceLogos: Record<string, string> = {
   "IPTV Premium": "/logos/iptv.svg",
   myCANAL: "/logos/mycanal.svg",
   "Surfshark VPN": "/logos/surfshark.svg",
-  "iCloud+": "/logos/icloud.svg",
+  "iCloud+": "/logos/icloud-plus.png",
   "Snapchat+": "/logos/snapchat.svg",
   "Apple Music": "/logos/apple-music.svg",
   "Apple TV+": "/logos/apple-tv.png",
