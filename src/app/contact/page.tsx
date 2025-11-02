@@ -51,7 +51,7 @@ const contactMethods = [
     icon: Instagram,
     title: "Instagram",
     value: "@sen_abonnement1",
-    link: "https://instagram.com/sen_abonnement1",
+    link: "https://instagram.com/teranga_premium1",
     description: "Suivez nos actualités",
     available: "Stories & Posts quotidiens",
     color: "from-pink-500 to-purple-600",

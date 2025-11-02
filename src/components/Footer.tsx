@@ -26,7 +26,7 @@ const socials = [
   },
   {
     label: "Instagram",
-    href: "https://instagram.com/sen_abonnement1",
+    href: "https://instagram.com/teranga_premium1",
     icon: Instagram,
   },
   {
