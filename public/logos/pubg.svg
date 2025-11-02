@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pubg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="20" fill="url(#pubg-gradient)"/>
+  <rect x="18" y="36" width="84" height="48" rx="12" stroke="#2C1B07" stroke-width="6" fill="none"/>
+  <path d="M34 78V42h14c6.1 0 10.5 3.9 10.5 9.6 0 3.6-1.9 6.3-4.9 7.7l5.7 18.7h-8.4L46 60.6h-4v17.4h-8zm33.5 0c-8.2 0-14.5-6.3-14.5-15 0-8.6 6.3-15 14.5-15S82 54.4 82 63c0 8.7-6.3 15-14.5 15zm0-7c3.4 0 6-3.1 6-8s-2.6-8-6-8-6 3.1-6 8 2.6 8 6 8zm25.5 7h-8V42h8v36z" fill="#2C1B07"/>
+</svg>

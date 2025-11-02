@@ -1,0 +1,24 @@
+<svg width="600" height="360" viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1DB954"/>
+      <stop offset="100%" stop-color="#0F0F0F"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#1DB954" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="600" height="360" rx="32" fill="#111111"/>
+  <circle cx="500" cy="40" r="120" fill="url(#bg)" opacity="0.4"/>
+  <rect x="40" y="40" width="200" height="110" rx="18" fill="#000000" stroke="#E50914" stroke-width="2" filter="url(#glow)"/>
+  <text x="140" y="95" font-family="Poppins, Arial" font-size="26" fill="#E50914" text-anchor="middle">NETFLIX</text>
+  <text x="140" y="125" font-family="Poppins, Arial" font-size="12" fill="#ffffff" text-anchor="middle">Premium UHD 4 écrans</text>
+  <rect x="250" y="70" width="200" height="110" rx="18" fill="#0f1c0f" stroke="#1DB954" stroke-width="2" filter="url(#glow)"/>
+  <text x="350" y="120" font-family="Poppins, Arial" font-size="24" fill="#1DB954" text-anchor="middle">IPTV PRO</text>
+  <text x="350" y="145" font-family="Poppins, Arial" font-size="12" fill="#d1ffd8" text-anchor="middle">Foot • Séries • VOD</text>
+  <rect x="60" y="200" width="480" height="110" rx="22" fill="#151515" stroke="#1DB954" stroke-opacity="0.3"/>
+  <text x="300" y="245" font-family="Poppins, Arial" font-size="20" fill="#ffffff" text-anchor="middle">TerangaPremium</text>
+  <text x="300" y="275" font-family="Poppins, Arial" font-size="14" fill="#b3b3b3" text-anchor="middle">
+    Netflix • IPTV • Spotify • myCANAL • Disney+ • VPN
+  </text>
+</svg>

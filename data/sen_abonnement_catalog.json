@@ -1,0 +1,1735 @@
+[
+  {
+    "category": "VPN",
+    "headline": "Connexion sécurisée et stable partout au Sénégal",
+    "offers": [
+      {
+        "id": "surfshark-1m",
+        "name": "Surfshark VPN",
+        "brandColor": "#00E6C3",
+        "price": 2000,
+        "duration": "1 mois",
+        "tag": "Multi-appareils illimités",
+        "description": "Compte officiel Surfshark One (VPN + Antivirus + Alertes ID) pour sécuriser vos connexions au Sénégal et à l'international.",
+        "features": [
+          "Serveurs 100+ pays",
+          "Bloqueur pub & trackers",
+          "Assistance WhatsApp 7j/7"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "TV / Sports",
+    "headline": "Les meilleures chaînes et compétitions en streaming",
+    "offers": [
+      {
+        "id": "mycanal-1m",
+        "name": "myCANAL",
+        "brandColor": "#000000",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "CANAL+ Afrique",
+        "description": "myCANAL Afrique (Evasion+, Sport, Séries, chaînes africaines) avec replay 30j. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "Replay inclus",
+          "Activation express"
+        ]
+      },
+      {
+        "id": "mycanal-2m",
+        "name": "myCANAL",
+        "brandColor": "#000000",
+        "price": 5000,
+        "duration": "2 mois",
+        "tag": "Pack prolongé",
+        "description": "myCANAL Afrique (Evasion+, Sport, Séries, chaînes africaines) avec replay 30j. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "Replay inclus",
+          "Activation express"
+        ]
+      },
+      {
+        "id": "mycanal-3m",
+        "name": "myCANAL",
+        "brandColor": "#000000",
+        "price": 7000,
+        "duration": "3 mois",
+        "tag": "Formule trimestrielle",
+        "description": "myCANAL Afrique (Evasion+, Sport, Séries, chaînes africaines) avec replay 30j. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "Replay inclus",
+          "Activation express"
+        ]
+      },
+      {
+        "id": "mycanal-6m",
+        "name": "myCANAL",
+        "brandColor": "#000000",
+        "price": 13000,
+        "duration": "6 mois",
+        "tag": "Pack fidélité",
+        "description": "myCANAL Afrique (Evasion+, Sport, Séries, chaînes africaines) avec replay 30j. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "Replay inclus",
+          "Activation express"
+        ]
+      },
+      {
+        "id": "mycanal-12m",
+        "name": "myCANAL",
+        "brandColor": "#000000",
+        "price": 23000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "myCANAL Afrique (Evasion+, Sport, Séries, chaînes africaines) avec replay 30j. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "Replay inclus",
+          "Activation express"
+        ]
+      },
+      {
+        "id": "iptv-1m",
+        "name": "IPTV Premium",
+        "brandColor": "#FFB800",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "10 000+ chaînes",
+        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
+        "features": [
+          "Qualité HD",
+          "Guide TV intégré",
+          "Support technique"
+        ]
+      },
+      {
+        "id": "iptv-3m",
+        "name": "IPTV Premium",
+        "brandColor": "#FFB800",
+        "price": 8000,
+        "duration": "3 mois",
+        "tag": "Formule 90j",
+        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
+        "features": [
+          "Qualité HD",
+          "Guide TV intégré",
+          "Support technique"
+        ]
+      },
+      {
+        "id": "iptv-6m",
+        "name": "IPTV Premium",
+        "brandColor": "#FFB800",
+        "price": 14000,
+        "duration": "6 mois",
+        "tag": "Stabilité garantie",
+        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
+        "features": [
+          "Qualité HD",
+          "Guide TV intégré",
+          "Support technique"
+        ]
+      },
+      {
+        "id": "iptv-12m",
+        "name": "IPTV Premium",
+        "brandColor": "#FFB800",
+        "price": 25000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
+        "features": [
+          "Qualité HD",
+          "Guide TV intégré",
+          "Support technique"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Cloud",
+    "headline": "Stockage sécurisé pour vos données",
+    "offers": [
+      {
+        "id": "icloud-50go",
+        "name": "iCloud+",
+        "brandColor": "#0A84FF",
+        "price": 2000,
+        "duration": "1 mois",
+        "tag": "50 Go",
+        "description": "Stockage Apple iCloud+ avec Relais Privé, Hide My Email et sécurité maximale. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "Sauvegarde automatique",
+          "Support Apple"
+        ]
+      },
+      {
+        "id": "icloud-200go",
+        "name": "iCloud+",
+        "brandColor": "#0A84FF",
+        "price": 4000,
+        "duration": "1 mois",
+        "tag": "200 Go",
+        "description": "Stockage Apple iCloud+ avec Relais Privé, Hide My Email et sécurité maximale. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "Sauvegarde automatique",
+          "Support Apple"
+        ]
+      },
+      {
+        "id": "icloud-2to",
+        "name": "iCloud+",
+        "brandColor": "#0A84FF",
+        "price": 9000,
+        "duration": "1 mois",
+        "tag": "2 To",
+        "description": "Stockage Apple iCloud+ avec Relais Privé, Hide My Email et sécurité maximale. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "Sauvegarde automatique",
+          "Support Apple"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Réseaux sociaux",
+    "headline": "Boostez votre présence et vos stories",
+    "offers": [
+      {
+        "id": "snapchat-1m",
+        "name": "Snapchat+",
+        "brandColor": "#FFFC00",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Badges exclusifs",
+        "description": "Snapchat+ officiel pour débloquer badges exclusifs, IA My AI et analytics de stories.",
+        "features": [
+          "Réponses IA",
+          "Story Pin",
+          "Support prioritaire"
+        ]
+      },
+      {
+        "id": "snapchat-2m",
+        "name": "Snapchat+",
+        "brandColor": "#FFFC00",
+        "price": 5000,
+        "duration": "2 mois",
+        "tag": "Story boost",
+        "description": "Snapchat+ officiel pour débloquer badges exclusifs, IA My AI et analytics de stories.",
+        "features": [
+          "Réponses IA",
+          "Story Pin",
+          "Support prioritaire"
+        ]
+      },
+      {
+        "id": "snapchat-3m",
+        "name": "Snapchat+",
+        "brandColor": "#FFFC00",
+        "price": 7000,
+        "duration": "3 mois",
+        "tag": "Créateurs",
+        "description": "Snapchat+ officiel pour débloquer badges exclusifs, IA My AI et analytics de stories.",
+        "features": [
+          "Réponses IA",
+          "Story Pin",
+          "Support prioritaire"
+        ]
+      },
+      {
+        "id": "snapchat-6m",
+        "name": "Snapchat+",
+        "brandColor": "#FFFC00",
+        "price": 12000,
+        "duration": "6 mois",
+        "tag": "Pack 6 mois",
+        "description": "Snapchat+ officiel pour débloquer badges exclusifs, IA My AI et analytics de stories.",
+        "features": [
+          "Réponses IA",
+          "Story Pin",
+          "Support prioritaire"
+        ]
+      },
+      {
+        "id": "snapchat-12m",
+        "name": "Snapchat+",
+        "brandColor": "#FFFC00",
+        "price": 20000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Snapchat+ officiel pour débloquer badges exclusifs, IA My AI et analytics de stories.",
+        "features": [
+          "Réponses IA",
+          "Story Pin",
+          "Support prioritaire"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Musique",
+    "headline": "Vos playlists en HQ audio sans interruption",
+    "offers": [
+      {
+        "id": "applemusic-1m",
+        "name": "Apple Music",
+        "brandColor": "#FA243C",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Dolby Atmos",
+        "description": "Apple Music (100+ millions de titres, Dolby Atmos, Lossless). Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Audio Lossless",
+          "Lyrics en direct"
+        ]
+      },
+      {
+        "id": "applemusic-2m",
+        "name": "Apple Music",
+        "brandColor": "#FA243C",
+        "price": 5500,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Apple Music (100+ millions de titres, Dolby Atmos, Lossless). Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Audio Lossless",
+          "Lyrics en direct"
+        ]
+      },
+      {
+        "id": "applemusic-3m",
+        "name": "Apple Music",
+        "brandColor": "#FA243C",
+        "price": 8000,
+        "duration": "3 mois",
+        "tag": "Formule trimestrielle",
+        "description": "Apple Music (100+ millions de titres, Dolby Atmos, Lossless). Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Audio Lossless",
+          "Lyrics en direct"
+        ]
+      },
+      {
+        "id": "applemusic-6m",
+        "name": "Apple Music",
+        "brandColor": "#FA243C",
+        "price": 15000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Apple Music (100+ millions de titres, Dolby Atmos, Lossless). Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Audio Lossless",
+          "Lyrics en direct"
+        ]
+      },
+      {
+        "id": "applemusic-13m",
+        "name": "Apple Music",
+        "brandColor": "#FA243C",
+        "price": 25000,
+        "duration": "13 mois",
+        "tag": "Bonus mois offert",
+        "description": "Apple Music (100+ millions de titres, Dolby Atmos, Lossless). Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Audio Lossless",
+          "Lyrics en direct"
+        ]
+      },
+      {
+        "id": "spotify-1m",
+        "name": "Spotify Premium",
+        "brandColor": "#1DB954",
+        "price": 2000,
+        "duration": "1 mois",
+        "tag": "Premium Solo",
+        "description": "Spotify Premium mondial sans pub avec téléchargements offline et qualité élevée.",
+        "features": [
+          "Mode offline",
+          "Qualité élevée",
+          "Partage playlist"
+        ]
+      },
+      {
+        "id": "spotify-3m",
+        "name": "Spotify Premium",
+        "brandColor": "#1DB954",
+        "price": 4500,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Spotify Premium mondial sans pub avec téléchargements offline et qualité élevée.",
+        "features": [
+          "Mode offline",
+          "Qualité élevée",
+          "Partage playlist"
+        ]
+      },
+      {
+        "id": "spotify-6m",
+        "name": "Spotify Premium",
+        "brandColor": "#1DB954",
+        "price": 9000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Spotify Premium mondial sans pub avec téléchargements offline et qualité élevée.",
+        "features": [
+          "Mode offline",
+          "Qualité élevée",
+          "Partage playlist"
+        ]
+      },
+      {
+        "id": "spotify-12m",
+        "name": "Spotify Premium",
+        "brandColor": "#1DB954",
+        "price": 16000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Spotify Premium mondial sans pub avec téléchargements offline et qualité élevée.",
+        "features": [
+          "Mode offline",
+          "Qualité élevée",
+          "Partage playlist"
+        ]
+      },
+      {
+        "id": "deezer-1m",
+        "name": "Deezer Premium",
+        "brandColor": "#FF007F",
+        "price": 2000,
+        "duration": "1 mois",
+        "tag": "HiFi",
+        "description": "Deezer Premium HiFi avec Flow personnalisé, mode DJ et audio FLAC.",
+        "features": [
+          "Qualité FLAC",
+          "Mode DJ",
+          "Lyrics synchronisées"
+        ]
+      },
+      {
+        "id": "deezer-3m",
+        "name": "Deezer Premium",
+        "brandColor": "#FF007F",
+        "price": 4500,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Deezer Premium HiFi avec Flow personnalisé, mode DJ et audio FLAC.",
+        "features": [
+          "Qualité FLAC",
+          "Mode DJ",
+          "Lyrics synchronisées"
+        ]
+      },
+      {
+        "id": "deezer-6m",
+        "name": "Deezer Premium",
+        "brandColor": "#FF007F",
+        "price": 9000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Deezer Premium HiFi avec Flow personnalisé, mode DJ et audio FLAC.",
+        "features": [
+          "Qualité FLAC",
+          "Mode DJ",
+          "Lyrics synchronisées"
+        ]
+      },
+      {
+        "id": "deezer-12m",
+        "name": "Deezer Premium",
+        "brandColor": "#FF007F",
+        "price": 16000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Deezer Premium HiFi avec Flow personnalisé, mode DJ et audio FLAC.",
+        "features": [
+          "Qualité FLAC",
+          "Mode DJ",
+          "Lyrics synchronisées"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Streaming vidéo",
+    "headline": "Vos séries et films préférés en HD/4K",
+    "offers": [
+      {
+        "id": "hulu-1m",
+        "name": "Hulu",
+        "brandColor": "#1CE783",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "US shows",
+        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
+        "features": [
+          "Compte personnel",
+          "Qualité HD",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hulu-2m",
+        "name": "Hulu",
+        "brandColor": "#1CE783",
+        "price": 5500,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
+        "features": [
+          "Compte personnel",
+          "Qualité HD",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hulu-3m",
+        "name": "Hulu",
+        "brandColor": "#1CE783",
+        "price": 8000,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
+        "features": [
+          "Compte personnel",
+          "Qualité HD",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hulu-6m",
+        "name": "Hulu",
+        "brandColor": "#1CE783",
+        "price": 15000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
+        "features": [
+          "Compte personnel",
+          "Qualité HD",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hulu-12m",
+        "name": "Hulu",
+        "brandColor": "#1CE783",
+        "price": 28000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
+        "features": [
+          "Compte personnel",
+          "Qualité HD",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hbomax-1m",
+        "name": "HBO Max",
+        "brandColor": "#5B0BB5",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Max Originals",
+        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hbomax-2m",
+        "name": "HBO Max",
+        "brandColor": "#5B0BB5",
+        "price": 5500,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hbomax-3m",
+        "name": "HBO Max",
+        "brandColor": "#5B0BB5",
+        "price": 8000,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hbomax-6m",
+        "name": "HBO Max",
+        "brandColor": "#5B0BB5",
+        "price": 15000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hbomax-12m",
+        "name": "HBO Max",
+        "brandColor": "#5B0BB5",
+        "price": 28000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "crunchyroll-1m",
+        "name": "Crunchyroll",
+        "brandColor": "#F47521",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Simulcast",
+        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
+        "features": [
+          "Compte personnel",
+          "Téléchargements",
+          "Catalogue illimité"
+        ]
+      },
+      {
+        "id": "crunchyroll-2m",
+        "name": "Crunchyroll",
+        "brandColor": "#F47521",
+        "price": 5500,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
+        "features": [
+          "Compte personnel",
+          "Téléchargements",
+          "Catalogue illimité"
+        ]
+      },
+      {
+        "id": "crunchyroll-3m",
+        "name": "Crunchyroll",
+        "brandColor": "#F47521",
+        "price": 8000,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
+        "features": [
+          "Compte personnel",
+          "Téléchargements",
+          "Catalogue illimité"
+        ]
+      },
+      {
+        "id": "crunchyroll-6m",
+        "name": "Crunchyroll",
+        "brandColor": "#F47521",
+        "price": 14000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
+        "features": [
+          "Compte personnel",
+          "Téléchargements",
+          "Catalogue illimité"
+        ]
+      },
+      {
+        "id": "crunchyroll-12m",
+        "name": "Crunchyroll",
+        "brandColor": "#F47521",
+        "price": 25000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
+        "features": [
+          "Compte personnel",
+          "Téléchargements",
+          "Catalogue illimité"
+        ]
+      },
+      {
+        "id": "netflix-1m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 1300,
+        "duration": "1 mois",
+        "tag": "Premium",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "netflix-2m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 4000,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "netflix-3m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 6000,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "netflix-6m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 11000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "netflix-8m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 13000,
+        "duration": "8 mois",
+        "tag": "Binge",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "netflix-13m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 18000,
+        "duration": "13 mois",
+        "tag": "Bonus mois offert",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "primevideo-1m",
+        "name": "Prime Video",
+        "brandColor": "#00A8E1",
+        "price": 2500,
+        "duration": "1 mois",
+        "tag": "Prime",
+        "description": "Amazon Prime Video avec Originals (The Boys, Fallout), Prime Channels et matchs exclusifs.",
+        "features": [
+          "Full HD",
+          "Téléchargements",
+          "Prime Channels"
+        ]
+      },
+      {
+        "id": "primevideo-2m",
+        "name": "Prime Video",
+        "brandColor": "#00A8E1",
+        "price": 4000,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Amazon Prime Video avec Originals (The Boys, Fallout), Prime Channels et matchs exclusifs.",
+        "features": [
+          "Full HD",
+          "Téléchargements",
+          "Prime Channels"
+        ]
+      },
+      {
+        "id": "primevideo-3m",
+        "name": "Prime Video",
+        "brandColor": "#00A8E1",
+        "price": 5500,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Amazon Prime Video avec Originals (The Boys, Fallout), Prime Channels et matchs exclusifs.",
+        "features": [
+          "Full HD",
+          "Téléchargements",
+          "Prime Channels"
+        ]
+      },
+      {
+        "id": "primevideo-6m",
+        "name": "Prime Video",
+        "brandColor": "#00A8E1",
+        "price": 10000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Amazon Prime Video avec Originals (The Boys, Fallout), Prime Channels et matchs exclusifs.",
+        "features": [
+          "Full HD",
+          "Téléchargements",
+          "Prime Channels"
+        ]
+      },
+      {
+        "id": "primevideo-12m",
+        "name": "Prime Video",
+        "brandColor": "#00A8E1",
+        "price": 16000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Amazon Prime Video avec Originals (The Boys, Fallout), Prime Channels et matchs exclusifs.",
+        "features": [
+          "Full HD",
+          "Téléchargements",
+          "Prime Channels"
+        ]
+      },
+      {
+        "id": "disney-1m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Disney univers",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "disney-2m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 5500,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "disney-3m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 8000,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "disney-6m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 15000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "disney-12m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 25000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Gaming",
+    "headline": "Cartes PSN pour recharger et profiter du PlayStation Store",
+    "offers": [
+      {
+        "id": "psn-usa-10",
+        "name": "PSN USA",
+        "brandColor": "#003087",
+        "price": 6900,
+        "duration": "10 USD",
+        "tag": "Carte cadeau",
+        "description": "Carte PlayStation Network USA pour recharger votre compte américain et accéder au meilleur du gaming : jeux exclusifs, DLC premium, abonnements PS Plus et contenus multimédias. Code livré instantanément par WhatsApp.",
+        "features": [
+          "Livraison instantanée",
+          "Code 100% valide",
+          "Support activation"
+        ]
+      },
+      {
+        "id": "psn-usa-25",
+        "name": "PSN USA",
+        "brandColor": "#003087",
+        "price": 15900,
+        "duration": "25 USD",
+        "tag": "Carte cadeau",
+        "description": "Carte PlayStation Network USA pour recharger votre compte américain et accéder au meilleur du gaming : jeux exclusifs, DLC premium, abonnements PS Plus et contenus multimédias. Code livré instantanément par WhatsApp.",
+        "features": [
+          "Livraison instantanée",
+          "Code 100% valide",
+          "Support activation"
+        ]
+      },
+      {
+        "id": "psn-usa-50",
+        "name": "PSN USA",
+        "brandColor": "#003087",
+        "price": 30400,
+        "duration": "50 USD",
+        "tag": "Carte cadeau",
+        "description": "Carte PlayStation Network USA pour recharger votre compte américain et accéder au meilleur du gaming : jeux exclusifs, DLC premium, abonnements PS Plus et contenus multimédias. Code livré instantanément par WhatsApp.",
+        "features": [
+          "Livraison instantanée",
+          "Code 100% valide",
+          "Support activation"
+        ]
+      },
+      {
+        "id": "psn-usa-75",
+        "name": "PSN USA",
+        "brandColor": "#003087",
+        "price": 46400,
+        "duration": "75 USD",
+        "tag": "Carte cadeau",
+        "description": "Carte PlayStation Network USA pour recharger votre compte américain et accéder au meilleur du gaming : jeux exclusifs, DLC premium, abonnements PS Plus et contenus multimédias. Code livré instantanément par WhatsApp.",
+        "features": [
+          "Livraison instantanée",
+          "Code 100% valide",
+          "Support activation"
+        ]
+      },
+      {
+        "id": "psn-usa-100",
+        "name": "PSN USA",
+        "brandColor": "#003087",
+        "price": 58900,
+        "duration": "100 USD",
+        "tag": "Carte cadeau",
+        "description": "Carte PlayStation Network USA pour recharger votre compte américain et accéder au meilleur du gaming : jeux exclusifs, DLC premium, abonnements PS Plus et contenus multimédias. Code livré instantanément par WhatsApp.",
+        "features": [
+          "Livraison instantanée",
+          "Code 100% valide",
+          "Support activation"
+        ]
+      },
+      {
+        "id": "psn-fr-10",
+        "name": "PSN France",
+        "brandColor": "#003087",
+        "price": 7400,
+        "duration": "10 EUR",
+        "tag": "Carte cadeau",
+        "description": "Carte PlayStation Store France pour acheter jeux, extensions, abonnements PS Plus et contenus numériques sur votre compte FR. Rechargez et jouez immédiatement avec les meilleurs titres PlayStation.",
+        "features": [
+          "Code instantané",
+          "Compatible compte FR",
+          "Assistance disponible"
+        ]
+      },
+      {
+        "id": "psn-fr-20",
+        "name": "PSN France",
+        "brandColor": "#003087",
+        "price": 14400,
+        "duration": "20 EUR",
+        "tag": "Carte cadeau",
+        "description": "Carte PlayStation Store France pour acheter jeux, extensions, abonnements PS Plus et contenus numériques sur votre compte FR. Rechargez et jouez immédiatement avec les meilleurs titres PlayStation.",
+        "features": [
+          "Code instantané",
+          "Compatible compte FR",
+          "Assistance disponible"
+        ]
+      },
+      {
+        "id": "psn-fr-50",
+        "name": "PSN France",
+        "brandColor": "#003087",
+        "price": 35900,
+        "duration": "50 EUR",
+        "tag": "Carte cadeau",
+        "description": "Carte PlayStation Store France pour acheter jeux, extensions, abonnements PS Plus et contenus numériques sur votre compte FR. Rechargez et jouez immédiatement avec les meilleurs titres PlayStation.",
+        "features": [
+          "Code instantané",
+          "Compatible compte FR",
+          "Assistance disponible"
+        ]
+      },
+      {
+        "id": "psn-fr-100",
+        "name": "PSN France",
+        "brandColor": "#003087",
+        "price": 69900,
+        "duration": "100 EUR",
+        "tag": "Carte cadeau",
+        "description": "Carte PlayStation Store France pour acheter jeux, extensions, abonnements PS Plus et contenus numériques sur votre compte FR. Rechargez et jouez immédiatement avec les meilleurs titres PlayStation.",
+        "features": [
+          "Code instantané",
+          "Compatible compte FR",
+          "Assistance disponible"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Cartes Apple",
+    "headline": "iTunes et App Store pour tous vos achats numériques Apple",
+    "offers": [
+      {
+        "id": "itunes-fr-10",
+        "name": "iTunes France",
+        "brandColor": "#FA243C",
+        "price": 7400,
+        "duration": "10 EUR",
+        "tag": "Carte cadeau",
+        "description": "Carte iTunes France pour accéder à l'univers Apple : musiques, films, séries, apps premium et abonnements sur l'App Store et iTunes Store FR. Code délivré instantanément pour profiter sans attendre.",
+        "features": [
+          "Livraison immédiate",
+          "Multi-usage",
+          "Code officiel Apple"
+        ]
+      },
+      {
+        "id": "itunes-fr-15",
+        "name": "iTunes France",
+        "brandColor": "#FA243C",
+        "price": 11400,
+        "duration": "15 EUR",
+        "tag": "Carte cadeau",
+        "description": "Carte iTunes France pour accéder à l'univers Apple : musiques, films, séries, apps premium et abonnements sur l'App Store et iTunes Store FR. Code délivré instantanément pour profiter sans attendre.",
+        "features": [
+          "Livraison immédiate",
+          "Multi-usage",
+          "Code officiel Apple"
+        ]
+      },
+      {
+        "id": "itunes-fr-20",
+        "name": "iTunes France",
+        "brandColor": "#FA243C",
+        "price": 16400,
+        "duration": "20 EUR",
+        "tag": "Carte cadeau",
+        "description": "Carte iTunes France pour accéder à l'univers Apple : musiques, films, séries, apps premium et abonnements sur l'App Store et iTunes Store FR. Code délivré instantanément pour profiter sans attendre.",
+        "features": [
+          "Livraison immédiate",
+          "Multi-usage",
+          "Code officiel Apple"
+        ]
+      },
+      {
+        "id": "itunes-fr-25",
+        "name": "iTunes France",
+        "brandColor": "#FA243C",
+        "price": 19900,
+        "duration": "25 EUR",
+        "tag": "Carte cadeau",
+        "description": "Carte iTunes France pour accéder à l'univers Apple : musiques, films, séries, apps premium et abonnements sur l'App Store et iTunes Store FR. Code délivré instantanément pour profiter sans attendre.",
+        "features": [
+          "Livraison immédiate",
+          "Multi-usage",
+          "Code officiel Apple"
+        ]
+      },
+      {
+        "id": "itunes-fr-50",
+        "name": "iTunes France",
+        "brandColor": "#FA243C",
+        "price": 37900,
+        "duration": "50 EUR",
+        "tag": "Carte cadeau",
+        "description": "Carte iTunes France pour accéder à l'univers Apple : musiques, films, séries, apps premium et abonnements sur l'App Store et iTunes Store FR. Code délivré instantanément pour profiter sans attendre.",
+        "features": [
+          "Livraison immédiate",
+          "Multi-usage",
+          "Code officiel Apple"
+        ]
+      },
+      {
+        "id": "itunes-fr-100",
+        "name": "iTunes France",
+        "brandColor": "#FA243C",
+        "price": 69900,
+        "duration": "100 EUR",
+        "tag": "Carte cadeau",
+        "description": "Carte iTunes France pour accéder à l'univers Apple : musiques, films, séries, apps premium et abonnements sur l'App Store et iTunes Store FR. Code délivré instantanément pour profiter sans attendre.",
+        "features": [
+          "Livraison immédiate",
+          "Multi-usage",
+          "Code officiel Apple"
+        ]
+      },
+      {
+        "id": "itunes-usa-10",
+        "name": "iTunes USA",
+        "brandColor": "#0A84FF",
+        "price": 7400,
+        "duration": "10 USD",
+        "tag": "Carte cadeau",
+        "description": "Carte iTunes US pour acheter apps, musiques, films et abonnements Apple sur le store américain. Accédez aux contenus exclusifs US et profitez d'un catalogue international. Livraison rapide du code par WhatsApp.",
+        "features": [
+          "Code instantané",
+          "Store US exclusif",
+          "Support dédié"
+        ]
+      },
+      {
+        "id": "itunes-usa-15",
+        "name": "iTunes USA",
+        "brandColor": "#0A84FF",
+        "price": 10400,
+        "duration": "15 USD",
+        "tag": "Carte cadeau",
+        "description": "Carte iTunes US pour acheter apps, musiques, films et abonnements Apple sur le store américain. Accédez aux contenus exclusifs US et profitez d'un catalogue international. Livraison rapide du code par WhatsApp.",
+        "features": [
+          "Code instantané",
+          "Store US exclusif",
+          "Support dédié"
+        ]
+      },
+      {
+        "id": "itunes-usa-20",
+        "name": "iTunes USA",
+        "brandColor": "#0A84FF",
+        "price": 13900,
+        "duration": "20 USD",
+        "tag": "Carte cadeau",
+        "description": "Carte iTunes US pour acheter apps, musiques, films et abonnements Apple sur le store américain. Accédez aux contenus exclusifs US et profitez d'un catalogue international. Livraison rapide du code par WhatsApp.",
+        "features": [
+          "Code instantané",
+          "Store US exclusif",
+          "Support dédié"
+        ]
+      },
+      {
+        "id": "itunes-usa-25",
+        "name": "iTunes USA",
+        "brandColor": "#0A84FF",
+        "price": 16900,
+        "duration": "25 USD",
+        "tag": "Carte cadeau",
+        "description": "Carte iTunes US pour acheter apps, musiques, films et abonnements Apple sur le store américain. Accédez aux contenus exclusifs US et profitez d'un catalogue international. Livraison rapide du code par WhatsApp.",
+        "features": [
+          "Code instantané",
+          "Store US exclusif",
+          "Support dédié"
+        ]
+      },
+      {
+        "id": "itunes-usa-50",
+        "name": "iTunes USA",
+        "brandColor": "#0A84FF",
+        "price": 31400,
+        "duration": "50 USD",
+        "tag": "Carte cadeau",
+        "description": "Carte iTunes US pour acheter apps, musiques, films et abonnements Apple sur le store américain. Accédez aux contenus exclusifs US et profitez d'un catalogue international. Livraison rapide du code par WhatsApp.",
+        "features": [
+          "Code instantané",
+          "Store US exclusif",
+          "Support dédié"
+        ]
+      },
+      {
+        "id": "itunes-usa-100",
+        "name": "iTunes USA",
+        "brandColor": "#0A84FF",
+        "price": 61900,
+        "duration": "100 USD",
+        "tag": "Carte cadeau",
+        "description": "Carte iTunes US pour acheter apps, musiques, films et abonnements Apple sur le store américain. Accédez aux contenus exclusifs US et profitez d'un catalogue international. Livraison rapide du code par WhatsApp.",
+        "features": [
+          "Code instantané",
+          "Store US exclusif",
+          "Support dédié"
+        ]
+      },
+      {
+        "id": "appletv-1m",
+        "name": "Apple TV+",
+        "brandColor": "#000000",
+        "price": 3100,
+        "duration": "1 mois",
+        "tag": "Apple Originals",
+        "description": "Abonnement Apple TV+ pour plonger dans l'univers des séries et films exclusifs Apple Originals en streaming HD/4K : Ted Lasso, Severance, Foundation et bien plus. Compte personnel activé instantanément.",
+        "features": [
+          "Apple Originals exclusifs",
+          "Streaming 4K HDR",
+          "Multi-appareils"
+        ]
+      },
+      {
+        "id": "appletv-2m",
+        "name": "Apple TV+",
+        "brandColor": "#000000",
+        "price": 5100,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Abonnement Apple TV+ pour plonger dans l'univers des séries et films exclusifs Apple Originals en streaming HD/4K : Ted Lasso, Severance, Foundation et bien plus. Compte personnel activé instantanément.",
+        "features": [
+          "Apple Originals exclusifs",
+          "Streaming 4K HDR",
+          "Multi-appareils"
+        ]
+      },
+      {
+        "id": "appletv-3m",
+        "name": "Apple TV+",
+        "brandColor": "#000000",
+        "price": 7400,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Abonnement Apple TV+ pour plonger dans l'univers des séries et films exclusifs Apple Originals en streaming HD/4K : Ted Lasso, Severance, Foundation et bien plus. Compte personnel activé instantanément.",
+        "features": [
+          "Apple Originals exclusifs",
+          "Streaming 4K HDR",
+          "Multi-appareils"
+        ]
+      },
+      {
+        "id": "appletv-6m",
+        "name": "Apple TV+",
+        "brandColor": "#000000",
+        "price": 13100,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Abonnement Apple TV+ pour plonger dans l'univers des séries et films exclusifs Apple Originals en streaming HD/4K : Ted Lasso, Severance, Foundation et bien plus. Compte personnel activé instantanément.",
+        "features": [
+          "Apple Originals exclusifs",
+          "Streaming 4K HDR",
+          "Multi-appareils"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Productivité & IA",
+    "headline": "Boostez votre créativité avec les outils les plus puissants",
+    "offers": [
+      {
+        "id": "youtube-premium-1m",
+        "name": "YouTube Premium",
+        "brandColor": "#FF0000",
+        "price": 3500,
+        "duration": "1 mois",
+        "tag": "Sans pub",
+        "description": "Abonnement YouTube Premium pour regarder sans publicité, écouter en arrière-plan et accéder à YouTube Music Premium inclus. Activé directement sur votre compte Google personnel pour une expérience optimale.",
+        "features": [
+          "Zéro publicité",
+          "Lecture arrière-plan",
+          "YouTube Music inclus"
+        ]
+      },
+      {
+        "id": "chatgpt-go-1m",
+        "name": "ChatGPT Go",
+        "brandColor": "#10A37F",
+        "price": 5000,
+        "duration": "1 mois",
+        "tag": "GPT-5 & Plus",
+        "description": "Accédez à ChatGPT Go avec le modèle GPT-5 et toutes les fonctionnalités avancées : création d'images, analyse de fichiers, mémoire étendue. Parfait pour étudiants, développeurs, créateurs de contenu et entrepreneurs. Activation instantanée.",
+        "features": [
+          "Modèle GPT-5",
+          "Création d'images IA",
+          "Analyse de documents"
+        ]
+      },
+      {
+        "id": "capcut-pro-1m",
+        "name": "CapCut Pro",
+        "brandColor": "#000000",
+        "price": 5300,
+        "duration": "1 mois",
+        "tag": "Montage pro",
+        "description": "Passez au niveau supérieur avec CapCut Pro : tous les effets, transitions, polices et filtres professionnels sans filigrane ni restriction. Compte activé avec votre email personnel. Idéal pour créateurs TikTok, Instagram et YouTube.",
+        "features": [
+          "Sans filigrane",
+          "Effets premium illimités",
+          "Export haute qualité"
+        ]
+      },
+      {
+        "id": "chatgpt-plus-shared-1m",
+        "name": "ChatGPT+ Co-abonnement",
+        "brandColor": "#10A37F",
+        "price": 6400,
+        "duration": "1 mois",
+        "tag": "Compte partagé (2 utilisateurs)",
+        "description": "Accès complet à ChatGPT+ partagé pour deux utilisateurs. Idéal pour réduire les coûts tout en profitant des modèles GPT-4.1 et GPT-o mini, avec génération d'images et analyse de fichiers.",
+        "features": [
+          "Accès GPT-4.1 et GPT-o mini",
+          "Création d'images et analyse de docs",
+          "Support prioritaire 24/7"
+        ]
+      },
+      {
+        "id": "chatgpt-plus-individual-1m",
+        "name": "ChatGPT+ Individuel",
+        "brandColor": "#0C8A6C",
+        "price": 10400,
+        "duration": "1 mois",
+        "tag": "Compte personnel",
+        "description": "Abonnement ChatGPT+ individuel sur votre propre compte OpenAI. Performances maximales, historique illimité et accès anticipé aux nouvelles fonctionnalités IA.",
+        "features": [
+          "Compte personnel sécurisé",
+          "Historique illimité",
+          "Accès aux futures nouveautés"
+        ]
+      },
+      {
+        "id": "chatgpt-plus-individual-3m",
+        "name": "ChatGPT+ Individuel",
+        "brandColor": "#0C8A6C",
+        "price": 24400,
+        "duration": "3 mois",
+        "tag": "Pack 3 mois",
+        "description": "Formule ChatGPT+ individuelle valable 3 mois avec remise. Gardez vos projets IA actifs en continu sans vous soucier du renouvellement mensuel.",
+        "features": [
+          "Paiement unique 3 mois",
+          "Toutes les fonctionnalités ChatGPT+",
+          "Assistance WhatsApp en continu"
+        ]
+      },
+      {
+        "id": "canva-pro-1m",
+        "name": "Canva Pro",
+        "brandColor": "#00C4CC",
+        "price": 2400,
+        "duration": "1 mois",
+        "tag": "Design illimité",
+        "description": "Débloquez Canva Pro avec templates premium, suppression d'arrière-plan et exportations sans filigrane. Convient aux créateurs de contenu et community managers.",
+        "features": [
+          "Templates premium",
+          "Background remover",
+          "Exports HD illimités"
+        ]
+      },
+      {
+        "id": "faceapp-pro-1m",
+        "name": "FaceApp Pro",
+        "brandColor": "#FF5470",
+        "price": 4400,
+        "duration": "1 mois",
+        "tag": "Filtres premium",
+        "description": "Profitez de tous les filtres, retouches AI et outils avancés de FaceApp Pro sans filigrane. Activation sur votre compte personnel.",
+        "features": [
+          "Filtres illimités",
+          "Retouches IA avancées",
+          "Sans filigrane"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Packs & Comptes Premium",
+    "headline": "Formules combo et comptes personnels multi-profils",
+    "offers": [
+      {
+        "id": "pack-netflix-primevideo",
+        "name": "Pack Netflix + Prime Video",
+        "brandColor": "#E50914",
+        "price": 4500,
+        "duration": "1 mois",
+        "tag": "Combo bestseller",
+        "description": "Pack combiné Netflix + Prime Video pour profiter du meilleur des deux plateformes à prix réduit. Séries, films, documentaires et Originals Amazon en un seul pack économique.",
+        "features": [
+          "2 plateformes en 1",
+          "Économie garantie",
+          "Activation rapide"
+        ],
+        "outOfStock": true
+      },
+      {
+        "id": "pack-netflix-disney",
+        "name": "Pack Netflix + Disney+",
+        "brandColor": "#E50914",
+        "price": 5000,
+        "duration": "1 mois",
+        "tag": "Famille & séries",
+        "description": "Pack Netflix + Disney+ pour toute la famille : séries Netflix + univers Marvel, Star Wars, Pixar et National Geographic. Le combo parfait pour petits et grands.",
+        "features": [
+          "Contenu famille",
+          "Marvel + Star Wars",
+          "Prix combo avantageux"
+        ],
+        "outOfStock": true
+      },
+      {
+        "id": "pack-primevideo-disney",
+        "name": "Pack Prime Video + Disney+",
+        "brandColor": "#00A8E1",
+        "price": 5000,
+        "duration": "1 mois",
+        "tag": "Originals + Famille",
+        "description": "Pack Prime Video + Disney+ combinant les Originals Amazon et l'univers Disney. Films, séries exclusives et contenus pour enfants réunis en une seule offre attractive.",
+        "features": [
+          "Amazon Originals",
+          "Univers Disney complet",
+          "Pack économique"
+        ],
+        "outOfStock": true
+      },
+      {
+        "id": "netflix-perso-5profils",
+        "name": "Netflix Compte Perso",
+        "brandColor": "#E50914",
+        "price": 7300,
+        "duration": "1 mois",
+        "tag": "5 profils",
+        "description": "Compte Netflix personnel créé avec VOTRE email et VOTRE mot de passe pour un contrôle total. 5 profils inclus pour toute la famille. Regardez sur tous vos appareils (TV, smartphone, tablette, PC) en qualité HD sans interruption. Sécurité et confidentialité maximales.",
+        "features": [
+          "Créé avec ton email",
+          "5 profils utilisateurs",
+          "Contrôle total du compte"
+        ]
+      },
+      {
+        "id": "primevideo-perso-6profils",
+        "name": "Prime Video Compte Perso",
+        "brandColor": "#00A8E1",
+        "price": 6400,
+        "duration": "1 mois",
+        "tag": "6 profils",
+        "description": "Compte Prime Video personnel créé avec VOTRE adresse email et VOTRE mot de passe pour un accès 100% sécurisé. 6 profils inclus. Compatible Smart TV, téléphone, tablette et PC. Contenus HD/4K sans pub + téléchargements offline. Livré en quelques minutes par WhatsApp.",
+        "features": [
+          "Créé avec ton email",
+          "6 profils familiaux",
+          "Accès sécurisé garanti"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Éducation & Lecture",
+    "headline": "Applis premium pour apprendre et lire partout",
+    "offers": [
+      {
+        "id": "scribd-premium-1m",
+        "name": "Scribd Premium",
+        "brandColor": "#1A7CFF",
+        "price": 2600,
+        "duration": "1 mois",
+        "tag": "Bibliothèque illimitée",
+        "description": "Accès illimité à des milliers de livres audio, ebooks, magazines et podcasts sur Scribd. Téléchargements hors ligne inclus.",
+        "features": [
+          "Livres & audio illimités",
+          "Téléchargements offline",
+          "Compte personnel sécurisé"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Cloud & Stockage",
+    "headline": "Sauvegardez vos fichiers importants en toute sécurité",
+    "offers": [
+      {
+        "id": "cloudplus-50go-3m",
+        "name": "Cloud+ 50 Go",
+        "brandColor": "#4285F4",
+        "price": 4900,
+        "duration": "3 mois",
+        "tag": "50 Go sécurisés",
+        "description": "Espace de stockage Cloud+ de 50 Go pour sauvegarder vos documents, photos et vidéos avec accès multi-appareils.",
+        "features": [
+          "Accès PC & mobile",
+          "Partage sécurisé",
+          "Support prioritaire"
+        ]
+      },
+      {
+        "id": "cloudplus-200go-3m",
+        "name": "Cloud+ 200 Go",
+        "brandColor": "#1A73E8",
+        "price": 7000,
+        "duration": "3 mois",
+        "tag": "Stockage XXL",
+        "description": "Espace Cloud+ 200 Go pour équipes et créateurs. Idéal pour les projets volumineux et les sauvegardes automatisées.",
+        "features": [
+          "Large capacité",
+          "Synchronisation auto",
+          "Protection avancée"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Crédits & Top-up Jeux",
+    "headline": "Rechargez vos jeux préférés instantanément",
+    "offers": [
+      {
+        "id": "pubg-uc-325",
+        "name": "PUBG Mobile",
+        "brandColor": "#F59E0B",
+        "price": 4000,
+        "duration": "Recharge instantanée",
+        "tag": "325 UC",
+        "description": "Rechargez 325 UC sur votre compte PUBG Mobile via ID joueur. Livraison en quelques minutes après paiement.",
+        "features": [
+          "Top-up officiel",
+          "Livraison rapide",
+          "Paiement mobile"
+        ]
+      },
+      {
+        "id": "pubg-uc-660",
+        "name": "PUBG Mobile",
+        "brandColor": "#F59E0B",
+        "price": 7400,
+        "duration": "Recharge instantanée",
+        "tag": "660 UC",
+        "description": "Recharge PUBG Mobile de 660 UC parfaite pour les Royale Pass et skins exclusifs.",
+        "features": [
+          "Top-up officiel",
+          "Support 24/7",
+          "Paiement local"
+        ]
+      },
+      {
+        "id": "pubg-uc-1800",
+        "name": "PUBG Mobile",
+        "brandColor": "#F59E0B",
+        "price": 14500,
+        "duration": "Recharge instantanée",
+        "tag": "1 800 UC",
+        "description": "Recharge premium de 1 800 UC pour débloquer vos packs favoris dans PUBG Mobile.",
+        "features": [
+          "Crédits livrés en <30 min",
+          "Confirmation WhatsApp",
+          "Paiement Wave / OM"
+        ]
+      },
+      {
+        "id": "pubg-uc-3850",
+        "name": "PUBG Mobile",
+        "brandColor": "#F59E0B",
+        "price": 28400,
+        "duration": "Recharge instantanée",
+        "tag": "3 850 UC",
+        "description": "Recharge avancée de 3 850 UC idéale pour les bundles saisonniers et caisses mythiques.",
+        "features": [
+          "Top-up vérifié",
+          "Aucun frais caché",
+          "Assistant dédié"
+        ]
+      },
+      {
+        "id": "pubg-uc-8100",
+        "name": "PUBG Mobile",
+        "brandColor": "#F59E0B",
+        "price": 54400,
+        "duration": "Recharge instantanée",
+        "tag": "8 100 UC",
+        "description": "Recharge massive de 8 100 UC pour les joueurs qui veulent tout débloquer cette saison.",
+        "features": [
+          "Livraison prioritaire",
+          "Paiement en CFA",
+          "Support 24/7"
+        ]
+      },
+      {
+        "id": "fortnite-vbucks-1000",
+        "name": "Fortnite V-Bucks",
+        "brandColor": "#60A5FA",
+        "price": 6900,
+        "duration": "Recharge instantanée",
+        "tag": "1 000 V-Bucks",
+        "description": "Achetez 1 000 V-Bucks pour débloquer le passe de combat ou vos skins préférés sur Fortnite.",
+        "features": [
+          "Top-up officiel",
+          "Livraison par ID",
+          "Paiement local"
+        ]
+      },
+      {
+        "id": "fortnite-vbucks-2800",
+        "name": "Fortnite V-Bucks",
+        "brandColor": "#60A5FA",
+        "price": 13400,
+        "duration": "Recharge instantanée",
+        "tag": "2 800 V-Bucks",
+        "description": "Recharge de 2 800 V-Bucks, idéale pour compléter le passe et acheter des bundles exclusifs.",
+        "features": [
+          "Crédits livrés sous 30 min",
+          "Confirmation WhatsApp",
+          "Assistance dédiée"
+        ]
+      },
+      {
+        "id": "fortnite-vbucks-5000",
+        "name": "Fortnite V-Bucks",
+        "brandColor": "#60A5FA",
+        "price": 21900,
+        "duration": "Recharge instantanée",
+        "tag": "5 000 V-Bucks",
+        "description": "Pack de 5 000 V-Bucks pour profiter des sets complets et offres limitées.",
+        "features": [
+          "Paiement sécurisé",
+          "Livraison express",
+          "Support 24/7"
+        ]
+      },
+      {
+        "id": "fortnite-vbucks-13500",
+        "name": "Fortnite V-Bucks",
+        "brandColor": "#60A5FA",
+        "price": 41400,
+        "duration": "Recharge instantanée",
+        "tag": "13 500 V-Bucks",
+        "description": "Recharge premium de 13 500 V-Bucks pour acheter tous les contenus de la saison.",
+        "features": [
+          "Top-up vérifié",
+          "Aucun frais additionnel",
+          "Assistance prioritaire"
+        ]
+      },
+      {
+        "id": "fortnite-vbucks-27000",
+        "name": "Fortnite V-Bucks",
+        "brandColor": "#60A5FA",
+        "price": 74900,
+        "duration": "Recharge instantanée",
+        "tag": "27 000 V-Bucks",
+        "description": "Recharge ultime de 27 000 V-Bucks pour les collectionneurs de skins et bundles exclusifs.",
+        "features": [
+          "Volume maximal",
+          "Livraison prioritaire",
+          "Support dédié"
+        ]
+      },
+      {
+        "id": "valorant-eu-1000",
+        "name": "Valorant Points (EU)",
+        "brandColor": "#FF4655",
+        "price": 7400,
+        "duration": "Recharge instantanée",
+        "tag": "1 000 VP",
+        "description": "Recharge de 1 000 Valorant Points sur serveur Europe. Entrez votre Riot ID et tag, nous créditons en quelques minutes.",
+        "features": [
+          "Serveur EU",
+          "Livraison rapide",
+          "Paiement mobile"
+        ]
+      },
+      {
+        "id": "valorant-eu-1520",
+        "name": "Valorant Points (EU)",
+        "brandColor": "#FF4655",
+        "price": 11400,
+        "duration": "Recharge instantanée",
+        "tag": "1 520 VP",
+        "description": "Recharge intermédiaire de 1 520 VP pour débloquer vos bundles favoris dans Valorant.",
+        "features": [
+          "Top-up sécurisé",
+          "Confirmation rapide",
+          "Support 24/7"
+        ]
+      },
+      {
+        "id": "valorant-eu-2575",
+        "name": "Valorant Points (EU)",
+        "brandColor": "#FF4655",
+        "price": 17900,
+        "duration": "Recharge instantanée",
+        "tag": "2 575 VP",
+        "description": "Pack de 2 575 Valorant Points pour acheter des skins premium et le battle pass.",
+        "features": [
+          "Livraison express",
+          "Paiement Wave / OM",
+          "Assistance dédiée"
+        ]
+      },
+      {
+        "id": "valorant-eu-5350",
+        "name": "Valorant Points (EU)",
+        "brandColor": "#FF4655",
+        "price": 31400,
+        "duration": "Recharge instantanée",
+        "tag": "5 350 VP",
+        "description": "Recharge de 5 350 VP idéale pour les bundles prestige et armes animées.",
+        "features": [
+          "Top-up vérifié",
+          "Livraison en <30 min",
+          "Support prioritaire"
+        ]
+      },
+      {
+        "id": "valorant-eu-8705",
+        "name": "Valorant Points (EU)",
+        "brandColor": "#FF4655",
+        "price": 48900,
+        "duration": "Recharge instantanée",
+        "tag": "8 705 VP",
+        "description": "Recharge ultime de 8 705 VP pour compléter toute la collection de skins de la saison.",
+        "features": [
+          "Paiement en CFA",
+          "Livraison express",
+          "Support 24/7"
+        ]
+      }
+    ]
+  }
+]

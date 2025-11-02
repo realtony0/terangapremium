@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fortnite-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3BA9FF"/>
+      <stop offset="100%" stop-color="#0B6BFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="url(#fortnite-gradient)"/>
+  <path d="M32 82V38h28v10H44v6h14v10H44v18H32zm56 0l-7.8-17.9H84V82h-12V38h16c8.7 0 14 4.8 14 12.5 0 5.5-2.7 9.4-7.1 11.2L106 82H88z" fill="#FFFFFF" fill-rule="evenodd"/>
+</svg>
