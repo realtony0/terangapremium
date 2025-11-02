@@ -30,7 +30,7 @@ const steps = [
     number: "02",
     icon: MessageCircle,
     title: "Contactez-nous sur WhatsApp",
-    description: "Cliquez sur &apos;Commander&apos; ou écrivez-nous directement. On vous répond en moins de 2 minutes.",
+    description: "Cliquez sur ’Commander’ ou écrivez-nous directement. On vous répond en moins de 2 minutes.",
     details: [
       "Réponse immédiate 24/7",
       "Disponible 24h/24 et 7j/7",
@@ -57,7 +57,7 @@ const steps = [
     description: "Dès paiement confirmé, vos identifiants arrivent par WhatsApp. Activation en 5 à 30 minutes.",
     details: [
       "Identifiant + mot de passe",
-      "Guide d&apos;installation inclus",
+      "Guide d’installation inclus",
       "Support pour vous aider",
     ],
     color: "from-red-500 to-red-600",
@@ -240,7 +240,7 @@ export default function HowItWorksSection() {
                 {/* Message client */}
                 <div className="flex justify-end">
                   <div className="max-w-[80%] rounded-2xl rounded-tr-sm bg-green-500 px-4 py-3 text-sm text-white">
-                    Wave s&apos;il vous plaît
+                    Wave s’il vous plaît
                   </div>
                 </div>
 

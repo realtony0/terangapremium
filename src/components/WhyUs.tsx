@@ -37,7 +37,7 @@ export default function WhyUs() {
           Une expérience premium, inspirée des meilleurs services musicaux.
         </h2>
         <p className="text-black/60">
-          On combine la proximité d&apos;une équipe locale et la fluidité d&apos;une
+          On combine la proximité d’une équipe locale et la fluidité d’une
           app de streaming pour gérer vos abonnements.
         </p>
       </div>

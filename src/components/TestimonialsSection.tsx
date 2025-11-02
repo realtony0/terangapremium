@@ -6,7 +6,7 @@ import { Star, Quote } from "lucide-react";
 const testimonials = [
   {
     quote:
-      "J&apos;ai résilié mon abo CANAL+ classique : maintenant je combine Netflix UHD + IPTV chez TerangaPremium. Activation en 15 min, rien à dire. J&apos;économise 8000 F par mois !",
+      "J’ai résilié mon abo CANAL+ classique : maintenant je combine Netflix UHD + IPTV chez TerangaPremium. Activation en 15 min, rien à dire. J’économise 8000 F par mois !",
     name: "Moussa D.",
     location: "Dakar Plateau",
     service: "Netflix + IPTV",
@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     quote:
-      "Je bosse dans la musique, j&apos;avais besoin de Spotify + Apple Music + iCloud. Tout est géré sur un seul numéro WhatsApp, super pratique. Je recommande à 100%.",
+      "Je bosse dans la musique, j’avais besoin de Spotify + Apple Music + iCloud. Tout est géré sur un seul numéro WhatsApp, super pratique. Je recommande à 100%.",
     name: "Aïssatou B.",
     location: "Rufisque",
     service: "Spotify + Apple Music",
@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     quote:
-      "Pour regarder la Premier League et la Liga, l&apos;IPTV premium est imbattable. Le support me répond même le dimanche. Meilleur investissement de l&apos;année !",
+      "Pour regarder la Premier League et la Liga, l’IPTV premium est imbattable. Le support me répond même le dimanche. Meilleur investissement de l’année !",
     name: "Cheikh M.",
     location: "Thiès",
     service: "IPTV Premium",
@@ -33,7 +33,7 @@ const testimonials = [
   },
   {
     quote:
-      "Netflix Premium en 4K, c&apos;est juste parfait. Tout fonctionne parfaitement depuis 6 mois. Prix imbattable, activation rapide, je ne vais plus ailleurs !",
+      "Netflix Premium en 4K, c’est juste parfait. Tout fonctionne parfaitement depuis 6 mois. Prix imbattable, activation rapide, je ne vais plus ailleurs !",
     name: "Fatou S.",
     location: "Parcelles Assainies",
     service: "Netflix Premium",
@@ -80,7 +80,7 @@ export default function TestimonialsSection() {
         </h2>
         <p className="mx-auto max-w-2xl text-xl text-black/70">
           Plus de 2 000 Sénégalais nous font confiance pour leurs abonnements.
-          Découvrez leurs retours d&apos;expérience.
+          Découvrez leurs retours d’expérience.
         </p>
       </motion.div>
 
@@ -111,7 +111,7 @@ export default function TestimonialsSection() {
 
             {/* Quote */}
             <p className="mb-6 text-sm leading-relaxed text-black/80">
-              &quot;{testimonial.quote}&quot;
+              “{testimonial.quote}”
             </p>
 
             {/* Service badge */}

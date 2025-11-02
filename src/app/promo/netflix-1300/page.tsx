@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   title: "🔥 Netflix à 1300F/mois — Offre Flash TerangaPremium",
   description:
-    "Profil Netflix personnel à seulement 1300F/mois. Qualité HD, activation instantanée, support 24/7. Offre flash valable jusqu&apos;au 30 novembre 2024 !",
+    "Profil Netflix personnel à seulement 1300F/mois. Qualité HD, activation instantanée, support 24/7. Offre flash valable jusqu’au 30 novembre 2024 !",
 };
 
 const features = [
@@ -47,7 +47,7 @@ const advantages = [
   "✅ Catalogue Netflix complet (séries, films, documentaires)",
   "✅ Compte personnel - Vous êtes le seul utilisateur",
   "✅ Compatible tous appareils (TV, mobile, PC, tablette)",
-  "✅ Pas d&apos;engagement - Renouvelable chaque mois",
+  "✅ Pas d’engagement - Renouvelable chaque mois",
   "✅ Paiement Wave / Orange Money / Free Money",
   "✅ Activation instantanée (5-30 minutes)",
   "✅ Support WhatsApp disponible 24h/24",
@@ -55,12 +55,12 @@ const advantages = [
 
 const faq = [
   {
-    q: "Pourquoi c&apos;est moins cher ?",
-    a: "C&apos;est un profil Netflix personnel optimisé pour 1 utilisateur. Parfait si vous regardez seul sur votre smartphone ou tablette. Qualité HD garantie !",
+    q: "Pourquoi c’est moins cher ?",
+    a: "C’est un profil Netflix personnel optimisé pour 1 utilisateur. Parfait si vous regardez seul sur votre smartphone ou tablette. Qualité HD garantie !",
   },
   {
-    q: "C&apos;est vraiment un compte Netflix officiel ?",
-    a: "Oui ! C&apos;est un vrai compte Netflix avec accès au catalogue complet. Vous aurez vos propres identifiants.",
+    q: "C’est vraiment un compte Netflix officiel ?",
+    a: "Oui ! C’est un vrai compte Netflix avec accès au catalogue complet. Vous aurez vos propres identifiants.",
   },
   {
     q: "Quelle est la qualité vidéo ?",
@@ -82,7 +82,7 @@ const testimonials = [
     location: "Dakar",
     rating: 5,
     comment:
-      "Parfait pour moi qui regarde sur mon téléphone. 1300F au lieu de 2500F, c&apos;est top !",
+      "Parfait pour moi qui regarde sur mon téléphone. 1300F au lieu de 2500F, c’est top !",
   },
   {
     name: "Fatou D.",
@@ -107,7 +107,7 @@ export default function NetflixPromoPage() {
         <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
           <div>
             <div className="mb-4 inline-flex animate-pulse items-center gap-2 rounded-full bg-yellow-400 px-4 py-2 text-sm font-black uppercase tracking-wider text-red-900">
-              🔥 Offre flash jusqu&apos;au 30 novembre
+              🔥 Offre flash jusqu’au 30 novembre
             </div>
             <h1 className="mb-4 text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
               Netflix à{" "}
@@ -232,9 +232,9 @@ export default function NetflixPromoPage() {
             <div className="flex items-start gap-3">
               <AlertCircle className="h-6 w-6 flex-shrink-0 text-red-600" />
               <div>
-                <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-500">Valable jusqu&apos;au 30 novembre 2024</p>
+                <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-500">Valable jusqu’au 30 novembre 2024</p>
                 <p className="text-sm text-red-800">
-                  Profitez du tarif spécial avant le 30/11/2024. Après cette date, l&apos;offre repasse à 2 500 F.
+                  Profitez du tarif spécial avant le 30/11/2024. Après cette date, l’offre repasse à 2 500 F.
                 </p>
               </div>
             </div>
@@ -245,7 +245,7 @@ export default function NetflixPromoPage() {
       {/* Testimonials */}
       <section className="mb-12">
         <h2 className="mb-8 text-center text-3xl font-bold text-black md:text-4xl">
-          Ils ont déjà profité de l&apos;offre
+          Ils ont déjà profité de l’offre
         </h2>
         <div className="grid gap-6 md:grid-cols-3">
           {testimonials.map((testimonial) => (
@@ -259,7 +259,7 @@ export default function NetflixPromoPage() {
                 ))}
               </div>
               <p className="mb-4 text-sm italic text-black/70">
-                &quot;{testimonial.comment}&quot;
+                “{testimonial.comment}”
               </p>
               <div className="border-t border-black/5 pt-3">
                 <p className="font-semibold text-black">{testimonial.name}</p>
@@ -300,7 +300,7 @@ export default function NetflixPromoPage() {
         </p>
         <NetflixPlanTrigger className="inline-flex items-center gap-2 rounded-full bg-yellow-400 px-8 py-4 text-lg font-bold text-red-900 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-yellow-300">
           <MessageCircle className="h-6 w-6" />
-          Ajouter l&apos;offre au panier
+          Ajouter l’offre au panier
         </NetflixPlanTrigger>
         <p className="mt-4 text-sm text-white/80">
           ⚡ Réponse en 2 minutes • Activation sous 30 minutes • Support 24/7

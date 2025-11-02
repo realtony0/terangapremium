@@ -126,7 +126,7 @@ export default function OffersPage() {
               {/* Droite - CTA */}
               <div className="flex-shrink-0">
                 <div className="flex items-center gap-3 rounded-2xl bg-red-600 px-8 py-4 font-black text-white shadow-lg transition-all group-hover:bg-red-700 group-hover:shadow-xl">
-                  <span className="text-lg">J&apos;en profite</span>
+                  <span className="text-lg">J’en profite</span>
                   <ArrowRight className="h-6 w-6 transition-transform group-hover:translate-x-1" />
                 </div>
               </div>
@@ -197,11 +197,11 @@ export default function OffersPage() {
             </div>
             
             <h2 className="mb-4 text-4xl font-black text-white md:text-5xl">
-              Besoin d&apos;un conseil ?
+              Besoin d’un conseil ?
             </h2>
             
             <p className="mb-10 text-xl text-gray-300">
-              Notre équipe d&apos;experts est disponible 24/7 pour vous guider vers la meilleure offre
+              Notre équipe d’experts est disponible 24/7 pour vous guider vers la meilleure offre
             </p>
             
             <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">

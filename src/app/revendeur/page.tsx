@@ -109,7 +109,7 @@ export default function RevendeurPage() {
             </div>
             <div className="rounded-[24px] border border-black/5 bg-gradient-to-br from-red-600 via-red-500 to-red-400 p-6 text-white shadow-[0_20px_60px_rgba(220,38,38,0.35)]">
               <h3 className="text-xl font-semibold">
-                Besoin d&apos;une offre sur mesure ?
+                Besoin d’une offre sur mesure ?
               </h3>
               <p className="mt-3 text-sm text-white/80">
                 Dites-nous les plateformes que vos clients demandent, nous

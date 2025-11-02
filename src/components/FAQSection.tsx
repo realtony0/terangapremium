@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "C&apos;est légal et sécurisé ?",
+    question: "C’est légal et sécurisé ?",
     answer:
       "✅ Absolument ! Tous nos abonnements sont des comptes officiels créés via les plateformes (Netflix, Spotify, Disney+, etc.). Nous gérons et maintenons ces comptes pour vous garantir un service continu. Plus de 2 000 clients nous font confiance depuis 2022.",
     icon: "🔒",
@@ -14,17 +14,17 @@ const faqs = [
   {
     question: "Combien de temps pour recevoir mes accès ?",
     answer:
-      "⚡ En moyenne 15 minutes ! Dès que votre paiement Wave/OM est confirmé, nous vous envoyons les identifiants par WhatsApp. Dans 95% des cas, c&apos;est fait en moins de 20 minutes, même le week-end.",
+      "⚡ En moyenne 15 minutes ! Dès que votre paiement Wave/OM est confirmé, nous vous envoyons les identifiants par WhatsApp. Dans 95% des cas, c’est fait en moins de 20 minutes, même le week-end.",
     icon: "⏱️",
   },
   {
     question: "Ça marche sur tous mes appareils ?",
     answer:
-      "📱 Oui ! TV connectée (Samsung, LG, etc.), smartphone Android/iPhone, tablette, PC/Mac, Xbox, PlayStation, Fire TV Stick... On vous guide gratuitement pour l&apos;installation si besoin via WhatsApp.",
+      "📱 Oui ! TV connectée (Samsung, LG, etc.), smartphone Android/iPhone, tablette, PC/Mac, Xbox, PlayStation, Fire TV Stick... On vous guide gratuitement pour l’installation si besoin via WhatsApp.",
     icon: "📺",
   },
   {
-    question: "Et si ça ne fonctionne pas après l&apos;activation ?",
+    question: "Et si ça ne fonctionne pas après l’activation ?",
     answer:
       "💯 Garantie remplacement immédiat ! Si votre accès ne fonctionne pas ou rencontre un problème technique, on le remplace gratuitement sous 24h maximum. Support WhatsApp disponible 24h/24 et 7j/7.",
     icon: "🛡️",
@@ -38,17 +38,17 @@ const faqs = [
   {
     question: "Je dois renouveler comment ?",
     answer:
-      "🔄 C&apos;est automatique ! Vous recevez un rappel WhatsApp 3 jours avant expiration. Un simple message suffit pour renouveler au même tarif ou changer de durée. Aucune coupure, aucune complication.",
+      "🔄 C’est automatique ! Vous recevez un rappel WhatsApp 3 jours avant expiration. Un simple message suffit pour renouveler au même tarif ou changer de durée. Aucune coupure, aucune complication.",
     icon: "🔔",
   },
   {
-    question: "C&apos;est un compte personnel ou partagé ?",
+    question: "C’est un compte personnel ou partagé ?",
     answer:
-      "🔐 C&apos;est un compte personnel dédié uniquement à vous. Vous êtes le seul utilisateur, ce qui garantit une connexion stable, aucun conflit d&apos;utilisation, et une sécurité maximale. Pas de partage = pas de problème !",
+      "🔐 C’est un compte personnel dédié uniquement à vous. Vous êtes le seul utilisateur, ce qui garantit une connexion stable, aucun conflit d’utilisation, et une sécurité maximale. Pas de partage = pas de problème !",
     icon: "👤",
   },
   {
-    question: "Vous avez d&apos;autres services disponibles ?",
+    question: "Vous avez d’autres services disponibles ?",
     answer:
       "🎯 On a TOUT ! Netflix, IPTV Premium (10 000+ chaînes), Spotify, Apple Music, Deezer, Disney+, Prime Video, HBO Max, Crunchyroll, myCANAL, Hulu, VPN Surfshark, iCloud+, Snapchat+... Plus de 14 services différents avec plusieurs durées.",
     icon: "🌟",

@@ -48,7 +48,7 @@ export default function Footer() {
               TerangaPremium
             </p>
             <p className="mb-4 max-w-md text-sm text-black/60">
-              Votre boutique d&apos;abonnements streaming, musique, TV et cloud au
+              Votre boutique d’abonnements streaming, musique, TV et cloud au
               Sénégal. Activation rapide, paiement local, support 24/7.
             </p>
             <div className="flex flex-wrap gap-2">

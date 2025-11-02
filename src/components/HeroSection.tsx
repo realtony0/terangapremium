@@ -41,7 +41,7 @@ export default function HeroSection() {
                   <span className="font-bold text-yellow-300">1 300 F / mois</span>
                 </h2>
                 <p className="text-sm text-white/80 sm:text-base">
-                  Offre valable jusqu&apos;au 30 novembre 2024. Qualité 4K, 5 profils personnels et activation en 15 min.
+                  Offre valable jusqu’au 30 novembre 2024. Qualité 4K, 5 profils personnels et activation en 15 min.
                 </p>
               </div>
               <div className="flex flex-col items-start gap-2 sm:items-end">

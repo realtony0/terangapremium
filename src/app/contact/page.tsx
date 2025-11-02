@@ -89,7 +89,7 @@ export default function ContactPage() {
           Contactez-nous
         </h1>
         <p className="mx-auto max-w-2xl text-xl text-black/70">
-          Une question sur nos offres ? Besoin d&apos;aide pour choisir ? Notre équipe
+          Une question sur nos offres ? Besoin d’aide pour choisir ? Notre équipe
           répond en moins de 2 minutes sur WhatsApp.
         </p>
       </section>
@@ -212,7 +212,7 @@ export default function ContactPage() {
             </h3>
             <p className="mb-4 text-black/70">
               TerangaPremium est une entreprise 100% sénégalaise basée à Dakar.
-              Nous servons l&apos;ensemble du Sénégal.
+              Nous servons l’ensemble du Sénégal.
             </p>
             <div className="rounded-2xl bg-red-50 p-4">
               <p className="text-sm font-semibold text-red-600">
