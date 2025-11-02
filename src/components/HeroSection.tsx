@@ -94,7 +94,11 @@ export default function HeroSection() {
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <button
                 type="button"
-                onClick={handleAddNetflix}
+                onClick={(event) => {
+                  event.preventDefault();
+                  event.stopPropagation();
+                  handleAddNetflix();
+                }}
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-[#E50914] px-6 py-3 text-base font-semibold text-white shadow-[0_18px_40px_rgba(229,9,20,0.25)] transition hover:bg-[#ff4754] sm:px-8 sm:text-lg"
               >
                 <Zap className="h-5 w-5" />
@@ -159,7 +163,11 @@ export default function HeroSection() {
 
                 <button
                   type="button"
-                  onClick={handleAddNetflix}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    handleAddNetflix();
+                  }}
                   className="inline-flex items-center justify-center rounded-full bg-black px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#E50914]"
                 >
                   Ajouter au panier
