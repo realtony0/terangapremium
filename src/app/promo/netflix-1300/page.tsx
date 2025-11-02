@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   title: "🔥 Netflix à 1300F/mois — Offre Flash TerangaPremium",
   description:
-    "Profil Netflix personnel à seulement 1300F/mois. Qualité HD, activation instantanée, support 24/7. Offre flash valable jusqu’au 30 novembre 2024 !",
+    "Profil Netflix personnel à seulement 1300F/mois. Qualité HD, activation instantanée, support 24/7. Offre flash valable jusqu’au 30 novembre 2025 !",
 };
 
 const features = [
@@ -232,7 +232,7 @@ export default function NetflixPromoPage() {
             <div className="flex items-start gap-3">
               <AlertCircle className="h-6 w-6 flex-shrink-0 text-red-600" />
               <div>
-                <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-500">Valable jusqu’au 30 novembre 2024</p>
+                <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-500">Valable jusqu’au 30 novembre 2025</p>
                 <p className="text-sm text-red-800">
                   Profitez du tarif spécial avant le 30/11/2024. Après cette date, l’offre repasse à 2 500 F.
                 </p>
