@@ -14,17 +14,49 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "TerangaPremium — Streaming & musique au Sénégal",
+  metadataBase: new URL("https://terangapremium.com"),
+  title: {
+    default: "TerangaPremium — Streaming & musique au Sénégal",
+    template: "%s | TerangaPremium",
+  },
   description:
     "Abonnements Netflix, myCANAL, Spotify, Disney+, VPN et Cloud livrés instantanément au Sénégal. Paiement Wave / OM, support WhatsApp 24h/24 et 7j/7.",
+  keywords: [
+    "Netflix Sénégal",
+    "Abonnement streaming Sénégal",
+    "TerangaPremium",
+    "IPTV Premium",
+    "Spotify Sénégal",
+    "Disney Plus Sénégal",
+    "ChatGPT Plus Sénégal",
+    "Vente comptes premium",
+    "Abonnements digitaux Dakar",
+  ],
+  authors: [{ name: "TerangaPremium" }],
+  creator: "TerangaPremium",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      maxSnippet: -1,
+      maxImagePreview: "large",
+      maxVideoPreview: -1,
+    },
+  },
+  alternates: {
+    canonical: "/",
+  },
   icons: {
     icon: "/favicon.svg",
+    apple: "/terangapremium-logo.jpg",
   },
   openGraph: {
-    title: "TerangaPremium",
+    title: "TerangaPremium — Streaming & musique au Sénégal",
     description:
       "Votre boutique futuriste d’abonnements streaming, musique, TV et cloud au Sénégal.",
-    url: "https://senabonnement.vercel.app",
+    url: "https://terangapremium.com",
     siteName: "TerangaPremium",
     images: [
       {
@@ -36,6 +68,13 @@ export const metadata: Metadata = {
     ],
     locale: "fr_FR",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TerangaPremium — Streaming & musique au Sénégal",
+    description:
+      "Profitez d’abonnements digitaux (Netflix, IPTV, Spotify, ChatGPT+, Cloud) livrés instantanément au Sénégal avec TerangaPremium.",
+    images: ["/terangapremium-logo.jpg"],
   },
 };
 
