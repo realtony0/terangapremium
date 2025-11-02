@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { CheckCircle2, Zap } from "lucide-react";
+import { useCart } from "@/context/CartContext";
 
 const highlights = [
   "Activation en 15 minutes",
@@ -12,6 +13,20 @@ const highlights = [
 ];
 
 export default function HeroSection() {
+  const { addItem } = useCart();
+
+  const handleAddNetflix = () => {
+    addItem({
+      id: "netflix-1m",
+      serviceName: "Netflix Premium UHD",
+      duration: "1 mois",
+      price: 1300,
+    });
+    if (typeof window !== "undefined") {
+      window.dispatchEvent(new CustomEvent("open-cart"));
+    }
+  };
+
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-white via-[#f8f8fb] to-white py-14 sm:py-16">
       <div className="pointer-events-none absolute inset-0">
@@ -77,13 +92,14 @@ export default function HeroSection() {
             </p>
 
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-              <Link
-                href="/offres#catalogue"
+              <button
+                type="button"
+                onClick={handleAddNetflix}
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-[#E50914] px-6 py-3 text-base font-semibold text-white shadow-[0_18px_40px_rgba(229,9,20,0.25)] transition hover:bg-[#ff4754] sm:px-8 sm:text-lg"
               >
                 <Zap className="h-5 w-5" />
-                Voir le catalogue
-              </Link>
+                Ajouter au panier
+              </button>
             </div>
 
             <ul className="mt-2 space-y-2">
@@ -141,12 +157,13 @@ export default function HeroSection() {
                   <span className="mb-1 text-sm text-black/50">/ mois</span>
                 </div>
 
-                <Link
-                  href="/offres#catalogue"
+                <button
+                  type="button"
+                  onClick={handleAddNetflix}
                   className="inline-flex items-center justify-center rounded-full bg-black px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#E50914]"
                 >
-                  Ajouter depuis le catalogue
-                </Link>
+                  Ajouter au panier
+                </button>
               </div>
             </div>
           </div>
