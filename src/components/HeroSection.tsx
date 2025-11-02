@@ -1,10 +1,14 @@
 "use client";
 
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { CheckCircle2, Zap } from "lucide-react";
-import { useCart } from "@/context/CartContext";
+import PlanModal from "./PlanModal";
+import catalogData from "@data/sen_abonnement_catalog.json";
+import { groupServicesByName } from "@/utils/catalog";
+import type { CatalogCategory, CatalogService } from "@/types/catalog";
 
 const highlights = [
   "Activation en 15 minutes",
@@ -13,17 +17,23 @@ const highlights = [
 ];
 
 export default function HeroSection() {
-  const { addItem } = useCart();
+  const services = useMemo(
+    () => groupServicesByName(catalogData as CatalogCategory[]),
+    []
+  );
+  const netflixService = useMemo<CatalogService | undefined>(
+    () => services.find((service) => service.name === "Netflix"),
+    [services]
+  );
+  const [selectedService, setSelectedService] = useState<CatalogService | null>(
+    null
+  );
 
-  const handleAddNetflix = () => {
-    addItem({
-      id: "netflix-1m",
-      serviceName: "Netflix",
-      duration: "1 mois",
-      price: 1300,
-    });
-    if (typeof window !== "undefined") {
-      window.dispatchEvent(new CustomEvent("open-cart"));
+  const handleOpenNetflixModal = (event: React.MouseEvent<HTMLButtonElement>) => {
+    event.preventDefault();
+    event.stopPropagation();
+    if (netflixService) {
+      setSelectedService(netflixService);
     }
   };
 
@@ -94,11 +104,7 @@ export default function HeroSection() {
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <button
                 type="button"
-                onClick={(event) => {
-                  event.preventDefault();
-                  event.stopPropagation();
-                  handleAddNetflix();
-                }}
+                onClick={handleOpenNetflixModal}
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-[#E50914] px-6 py-3 text-base font-semibold text-white shadow-[0_18px_40px_rgba(229,9,20,0.25)] transition hover:bg-[#ff4754] sm:px-8 sm:text-lg"
               >
                 <Zap className="h-5 w-5" />
@@ -163,11 +169,7 @@ export default function HeroSection() {
 
                 <button
                   type="button"
-                  onClick={(event) => {
-                    event.preventDefault();
-                    event.stopPropagation();
-                    handleAddNetflix();
-                  }}
+                  onClick={handleOpenNetflixModal}
                   className="inline-flex items-center justify-center rounded-full bg-black px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#E50914]"
                 >
                   Ajouter au panier
@@ -177,6 +179,12 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
+      {selectedService && (
+        <PlanModal
+          service={selectedService}
+          onClose={() => setSelectedService(null)}
+        />
+      )}
     </section>
   );
 }
