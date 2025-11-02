@@ -57,12 +57,6 @@ export default function HeroSection() {
                 <Zap className="h-5 w-5" />
                 Voir le catalogue
               </Link>
-              <Link
-                href="/promo/netflix-1300"
-                className="inline-flex items-center justify-center rounded-full border border-black/10 px-6 py-3 text-base font-semibold text-[#0f0f0f] transition hover:border-black sm:px-8 sm:text-lg"
-              >
-                Promo Netflix 1300 F
-              </Link>
             </div>
 
             <ul className="mt-2 space-y-2">
