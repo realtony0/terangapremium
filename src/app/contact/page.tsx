@@ -40,8 +40,8 @@ const contactMethods = [
   {
     icon: Mail,
     title: "Email",
-    value: "contact@senabonnement.com",
-    link: "mailto:contact@senabonnement.com",
+    value: "contact@terangapremium.com",
+    link: "mailto:contact@terangapremium.com",
     description: "Pour questions détaillées",
     available: "Réponse sous 24h",
     color: "from-red-500 to-red-600",
@@ -50,7 +50,7 @@ const contactMethods = [
   {
     icon: Instagram,
     title: "Instagram",
-    value: "@sen_abonnement1",
+    value: "@teranga_premium1",
     link: "https://instagram.com/teranga_premium1",
     description: "Suivez nos actualités",
     available: "Stories & Posts quotidiens",
