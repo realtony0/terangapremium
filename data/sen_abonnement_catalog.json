@@ -1,5 +1,81 @@
 [
   {
+    "category": "Coups de coeur",
+    "headline": "Les abonnements les plus demandés cette semaine",
+    "offers": [
+      {
+        "id": "netflix-1m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 1300,
+        "duration": "1 mois",
+        "tag": "Premium",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "applemusic-1m",
+        "name": "Apple Music",
+        "brandColor": "#FA243C",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Dolby Atmos",
+        "description": "Apple Music (100+ millions de titres, Dolby Atmos, Lossless). Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Audio Lossless",
+          "Lyrics en direct"
+        ]
+      },
+      {
+        "id": "primevideo-1m",
+        "name": "Prime Video",
+        "brandColor": "#00A8E1",
+        "price": 2500,
+        "duration": "1 mois",
+        "tag": "Prime",
+        "description": "Amazon Prime Video avec Originals (The Boys, Fallout), Prime Channels et matchs exclusifs.",
+        "features": [
+          "Full HD",
+          "Téléchargements",
+          "Prime Channels"
+        ]
+      },
+      {
+        "id": "iptv-1m",
+        "name": "IPTV Premium",
+        "brandColor": "#FFB800",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "10 000+ chaînes",
+        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
+        "features": [
+          "Qualité HD",
+          "Guide TV intégré",
+          "Support technique"
+        ]
+      },
+      {
+        "id": "disney-1m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Disney univers",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      }
+    ]
+  },
+  {
     "category": "VPN",
     "headline": "Connexion sécurisée et stable partout au Sénégal",
     "offers": [
@@ -23,6 +99,62 @@
     "category": "TV / Sports",
     "headline": "Les meilleures chaînes et compétitions en streaming",
     "offers": [
+      {
+        "id": "iptv-1m",
+        "name": "IPTV Premium",
+        "brandColor": "#FFB800",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "10 000+ chaînes",
+        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
+        "features": [
+          "Qualité HD",
+          "Guide TV intégré",
+          "Support technique"
+        ]
+      },
+      {
+        "id": "iptv-3m",
+        "name": "IPTV Premium",
+        "brandColor": "#FFB800",
+        "price": 8000,
+        "duration": "3 mois",
+        "tag": "Formule 90j",
+        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
+        "features": [
+          "Qualité HD",
+          "Guide TV intégré",
+          "Support technique"
+        ]
+      },
+      {
+        "id": "iptv-6m",
+        "name": "IPTV Premium",
+        "brandColor": "#FFB800",
+        "price": 14000,
+        "duration": "6 mois",
+        "tag": "Stabilité garantie",
+        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
+        "features": [
+          "Qualité HD",
+          "Guide TV intégré",
+          "Support technique"
+        ]
+      },
+      {
+        "id": "iptv-12m",
+        "name": "IPTV Premium",
+        "brandColor": "#FFB800",
+        "price": 25000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
+        "features": [
+          "Qualité HD",
+          "Guide TV intégré",
+          "Support technique"
+        ]
+      },
       {
         "id": "mycanal-1m",
         "name": "myCANAL",
@@ -91,62 +223,6 @@
           "Compte personnel",
           "Replay inclus",
           "Activation express"
-        ]
-      },
-      {
-        "id": "iptv-1m",
-        "name": "IPTV Premium",
-        "brandColor": "#FFB800",
-        "price": 3000,
-        "duration": "1 mois",
-        "tag": "10 000+ chaînes",
-        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
-        "features": [
-          "Qualité HD",
-          "Guide TV intégré",
-          "Support technique"
-        ]
-      },
-      {
-        "id": "iptv-3m",
-        "name": "IPTV Premium",
-        "brandColor": "#FFB800",
-        "price": 8000,
-        "duration": "3 mois",
-        "tag": "Formule 90j",
-        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
-        "features": [
-          "Qualité HD",
-          "Guide TV intégré",
-          "Support technique"
-        ]
-      },
-      {
-        "id": "iptv-6m",
-        "name": "IPTV Premium",
-        "brandColor": "#FFB800",
-        "price": 14000,
-        "duration": "6 mois",
-        "tag": "Stabilité garantie",
-        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
-        "features": [
-          "Qualité HD",
-          "Guide TV intégré",
-          "Support technique"
-        ]
-      },
-      {
-        "id": "iptv-12m",
-        "name": "IPTV Premium",
-        "brandColor": "#FFB800",
-        "price": 25000,
-        "duration": "12 mois",
-        "tag": "Annuel",
-        "description": "+10 000 chaînes FR/US/AFR et VOD via nos serveurs IPTV premium ultra stables.",
-        "features": [
-          "Qualité HD",
-          "Guide TV intégré",
-          "Support technique"
         ]
       }
     ]
@@ -468,6 +544,160 @@
     "headline": "Vos séries et films préférés en HD/4K",
     "offers": [
       {
+        "id": "netflix-1m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 1300,
+        "duration": "1 mois",
+        "tag": "Premium",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "netflix-2m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 4000,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "netflix-3m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 6000,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "netflix-6m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 11000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "netflix-8m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 13000,
+        "duration": "8 mois",
+        "tag": "Binge",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "netflix-13m",
+        "name": "Netflix",
+        "brandColor": "#E50914",
+        "price": 18000,
+        "duration": "13 mois",
+        "tag": "Bonus mois offert",
+        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "features": [
+          "Compte personnel",
+          "Qualité UHD 4K",
+          "Audio HDR"
+        ]
+      },
+      {
+        "id": "disney-1m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Disney univers",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "disney-2m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 5500,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "disney-3m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 8000,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "disney-6m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 15000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "disney-12m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 25000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
         "id": "appletv-1m",
         "name": "Apple TV+",
         "brandColor": "#1E90FF",
@@ -720,90 +950,6 @@
         ]
       },
       {
-        "id": "netflix-1m",
-        "name": "Netflix",
-        "brandColor": "#E50914",
-        "price": 1300,
-        "duration": "1 mois",
-        "tag": "Premium",
-        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
-        "features": [
-          "Compte personnel",
-          "Qualité UHD 4K",
-          "Audio HDR"
-        ]
-      },
-      {
-        "id": "netflix-2m",
-        "name": "Netflix",
-        "brandColor": "#E50914",
-        "price": 4000,
-        "duration": "2 mois",
-        "tag": "Pack duo",
-        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
-        "features": [
-          "Compte personnel",
-          "Qualité UHD 4K",
-          "Audio HDR"
-        ]
-      },
-      {
-        "id": "netflix-3m",
-        "name": "Netflix",
-        "brandColor": "#E50914",
-        "price": 6000,
-        "duration": "3 mois",
-        "tag": "Quarter",
-        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
-        "features": [
-          "Compte personnel",
-          "Qualité UHD 4K",
-          "Audio HDR"
-        ]
-      },
-      {
-        "id": "netflix-6m",
-        "name": "Netflix",
-        "brandColor": "#E50914",
-        "price": 11000,
-        "duration": "6 mois",
-        "tag": "Mid-year",
-        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
-        "features": [
-          "Compte personnel",
-          "Qualité UHD 4K",
-          "Audio HDR"
-        ]
-      },
-      {
-        "id": "netflix-8m",
-        "name": "Netflix",
-        "brandColor": "#E50914",
-        "price": 13000,
-        "duration": "8 mois",
-        "tag": "Binge",
-        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
-        "features": [
-          "Compte personnel",
-          "Qualité UHD 4K",
-          "Audio HDR"
-        ]
-      },
-      {
-        "id": "netflix-13m",
-        "name": "Netflix",
-        "brandColor": "#E50914",
-        "price": 18000,
-        "duration": "13 mois",
-        "tag": "Bonus mois offert",
-        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
-        "features": [
-          "Compte personnel",
-          "Qualité UHD 4K",
-          "Audio HDR"
-        ]
-      },
-      {
         "id": "primevideo-1m",
         "name": "Prime Video",
         "brandColor": "#00A8E1",
@@ -871,76 +1017,6 @@
           "Full HD",
           "Téléchargements",
           "Prime Channels"
-        ]
-      },
-      {
-        "id": "disney-1m",
-        "name": "Disney+",
-        "brandColor": "#113CCF",
-        "price": 3000,
-        "duration": "1 mois",
-        "tag": "Disney univers",
-        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "disney-2m",
-        "name": "Disney+",
-        "brandColor": "#113CCF",
-        "price": 5500,
-        "duration": "2 mois",
-        "tag": "Pack duo",
-        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "disney-3m",
-        "name": "Disney+",
-        "brandColor": "#113CCF",
-        "price": 8000,
-        "duration": "3 mois",
-        "tag": "Quarter",
-        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "disney-6m",
-        "name": "Disney+",
-        "brandColor": "#113CCF",
-        "price": 15000,
-        "duration": "6 mois",
-        "tag": "Mid-year",
-        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "disney-12m",
-        "name": "Disney+",
-        "brandColor": "#113CCF",
-        "price": 25000,
-        "duration": "12 mois",
-        "tag": "Annuel",
-        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
         ]
       }
     ]
