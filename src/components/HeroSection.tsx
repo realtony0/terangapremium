@@ -18,7 +18,7 @@ export default function HeroSection() {
   const handleAddNetflix = () => {
     addItem({
       id: "netflix-1m",
-      serviceName: "Netflix Premium UHD",
+      serviceName: "Netflix",
       duration: "1 mois",
       price: 1300,
     });
