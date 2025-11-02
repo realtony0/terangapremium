@@ -107,7 +107,7 @@ export default function GuaranteeSection() {
                 Commander maintenant
               </a>
               <a
-                href="https://wa.me/221784467465?text=Bonjour%20!%20J%27ai%20des%20questions%20sur%20vos%20offres"
+                href="https://wa.me/221784467465?text=Bonjour%20!%20J’ai%20des%20questions%20sur%20vos%20offres"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-white px-8 py-4 text-lg font-bold text-white transition-all duration-300 hover:bg-white hover:text-red-600"

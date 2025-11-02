@@ -157,7 +157,7 @@ export default function FAQSection() {
           et vous guider dans votre choix.
         </p>
         <a
-          href="https://wa.me/221784467465?text=Bonjour%20!%20J%27ai%20des%20questions%20sur%20vos%20abonnements"
+          href="https://wa.me/221784467465?text=Bonjour%20!%20J’ai%20des%20questions%20sur%20vos%20abonnements"
           target="_blank"
           rel="noreferrer"
           className="btn-primary inline-flex items-center gap-2"

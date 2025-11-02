@@ -4,7 +4,7 @@ import { MotionConfig, motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 
 const CTA_WHATSAPP =
-  "https://wa.me/221784467465?text=Bonjour%20Sen%20Abonnement%2C%0A%0AJe%20suis%20int%C3%A9ress%C3%A9%28e%29%20par%20vos%20offres%20d%27abonnements.%0A%0APouvez-vous%20me%20donner%20plus%20d%27informations%20%3F%0A%0AMerci%20!";
+  "https://wa.me/221784467465?text=Bonjour%20TerangaPremium%2C%0A%0AJe%20suis%20int%C3%A9ress%C3%A9%28e%29%20par%20vos%20offres%20d%27abonnements.%0A%0APouvez-vous%20me%20donner%20plus%20d%27informations%20%3F%0A%0AMerci%20!";
 
 export default function FloatingWhatsAppButton() {
   return (

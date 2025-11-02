@@ -51,7 +51,7 @@ export default function RevendeurPage() {
               Achat minimum 3 comptes par commande
             </div>
               <a
-                href="https://wa.me/221784467465?text=Bonjour%20Sen%20Abonnement%2C%0A%0AJe%20souhaite%20passer%20une%20commande%20revendeur%20(minimum%203%20comptes).%0A%0AVoici%20les%20comptes%20qui%20m%27int%C3%A9ressent%20:%0A- "
+                href="https://wa.me/221784467465?text=Bonjour%20TerangaPremium%2C%0A%0AJe%20souhaite%20passer%20une%20commande%20revendeur%20(minimum%203%20comptes).%0A%0AVoici%20les%20comptes%20qui%20m%27int%C3%A9ressent%20:%0A- "
                 target="_blank"
                 rel="noreferrer"
                 className="btn-primary w-fit"
@@ -116,7 +116,7 @@ export default function RevendeurPage() {
                 construisons un pricing spécial revendeur.
               </p>
               <a
-                href="https://wa.me/221784467465?text=Bonjour%20Sen%20Abonnement%2C%0A%0AJ%27ai%20besoin%20d%27une%20offre%20revendeur%20sur%20mesure.%0A%0APlateformes%20souhait%C3%A9es%20:%0A- "
+                href="https://wa.me/221784467465?text=Bonjour%20TerangaPremium%2C%0A%0AJ%27ai%20besoin%20d%27une%20offre%20revendeur%20sur%20mesure.%0A%0APlateformes%20souhait%C3%A9es%20:%0A- "
                 target="_blank"
                 rel="noreferrer"
                 className="mt-5 inline-flex items-center gap-2 rounded-full border border-white/70 bg-white px-6 py-3 text-sm font-semibold text-red-600 shadow-[0_10px_30px_rgba(255,255,255,0.2)] transition hover:border-white hover:bg-white/90"
@@ -176,7 +176,7 @@ export default function RevendeurPage() {
                 </p>
               </div>
               <a
-                href="https://wa.me/221784467465?text=Bonjour%20Sen%20Abonnement%2C%0A%0AJe%20souhaite%20activer%20une%20commande%20revendeur%20:%0A- "
+                href="https://wa.me/221784467465?text=Bonjour%20TerangaPremium%2C%0A%0AJe%20souhaite%20activer%20une%20commande%20revendeur%20:%0A- "
                 target="_blank"
                 rel="noreferrer"
                 className="btn-primary w-full text-center"
