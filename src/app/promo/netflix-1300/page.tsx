@@ -134,7 +134,7 @@ export default function NetflixPromoPage() {
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-yellow-400 px-8 py-4 text-lg font-bold text-red-900 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-yellow-300"
               >
                 <MessageCircle className="h-5 w-5" />
-                Ajouter via le catalogue
+                Ajouter au panier
               </Link>
               <a
                 href="#details"
