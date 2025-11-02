@@ -21,12 +21,39 @@ export default function HeroSection() {
 
       <div className="relative mx-auto max-w-6xl px-4">
         <motion.div
-          initial={{ opacity: 0, y: -15 }}
+          initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4 }}
-          className="mb-6 inline-flex items-center gap-2 rounded-full border border-red-100 bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-red-500 sm:text-sm"
+          transition={{ duration: 0.5 }}
+          className="mb-6 overflow-hidden rounded-[28px] bg-gradient-to-r from-red-600 via-red-500 to-orange-500 p-0.5 shadow-[0_25px_70px_rgba(229,57,57,0.35)]"
         >
-          TerangaPremium • Streaming & Cloud au Sénégal
+          <Link
+            href="/promo/netflix-1300"
+            className="block rounded-[26px] bg-gradient-to-r from-red-600 via-red-500 to-orange-400 px-4 py-5 text-white transition hover:brightness-110 sm:px-8 sm:py-6"
+          >
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div className="space-y-1.5">
+                <span className="inline-flex items-center gap-2 rounded-full bg-white/15 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.35em] text-white/80 sm:text-xs">
+                  🔥 Offre flash Netflix
+                </span>
+                <h2 className="text-2xl font-semibold sm:text-3xl">
+                  Profil Netflix Premium UHD à{" "}
+                  <span className="font-bold text-yellow-300">1 300 F / mois</span>
+                </h2>
+                <p className="text-sm text-white/80 sm:text-base">
+                  Offre valable jusqu&apos;au 30 novembre 2024. Qualité 4K, 5 profils personnels et activation en 15 min.
+                </p>
+              </div>
+              <div className="flex flex-col items-start gap-2 sm:items-end">
+                <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.35em] text-white/80">
+                  <span className="inline-flex h-2 w-2 animate-pulse rounded-full bg-yellow-300" />
+                  Stocks limités
+                </div>
+                <span className="rounded-full bg-white px-4 py-2 text-xs font-semibold text-red-600 shadow sm:text-sm">
+                  Réduction -48%
+                </span>
+              </div>
+            </div>
+          </Link>
         </motion.div>
 
         <div className="grid gap-10 md:grid-cols-[1.05fr_0.95fr]">
