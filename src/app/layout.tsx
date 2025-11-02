@@ -3,9 +3,8 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
-import { CartProvider } from "@/context/CartContext";
 import CartDrawer from "@/components/CartDrawer";
+import { CartProvider } from "@/context/CartContext";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -95,8 +94,7 @@ export default function RootLayout({
             <main className="pt-20 sm:pt-24 lg:pt-28">{children}</main>
             <Footer />
           </div>
-          <FloatingWhatsAppButton />
-          <CartDrawer />
+          <CartDrawer showFloatingButton={false} />
         </CartProvider>
       </body>
     </html>

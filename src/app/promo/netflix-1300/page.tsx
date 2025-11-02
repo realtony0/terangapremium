@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import {
   CheckCircle2,
   Zap,
@@ -128,15 +129,13 @@ export default function NetflixPromoPage() {
             </div>
 
             <div className="flex flex-col gap-3 sm:flex-row">
-              <a
-                href="https://wa.me/221784467465?text=Bonjour%20Sen%20Abonnement%2C%0A%0AJe%20souhaite%20profiter%20de%20l%27OFFRE%20FLASH%20%3A%0A%0A%F0%9F%93%A6%20Service%20%3A%20Netflix%20Premium%0A%E2%8F%B1%EF%B8%8F%20Dur%C3%A9e%20%3A%201%20mois%0A%F0%9F%92%B0%20Prix%20promo%20%3A%201%20300%20F%20CFA%0A%0AJe%20suis%20pr%C3%AAt%20%C3%A0%20finaliser%20ma%20commande.%0A%0AMerci%20!"
-                target="_blank"
-                rel="noreferrer"
+              <Link
+                href="/offres#catalogue"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-yellow-400 px-8 py-4 text-lg font-bold text-red-900 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-yellow-300"
               >
                 <MessageCircle className="h-5 w-5" />
-                Commander maintenant
-              </a>
+                Ajouter via le catalogue
+              </Link>
               <a
                 href="#details"
                 className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-white bg-transparent px-8 py-4 text-lg font-bold text-white transition-all duration-300 hover:bg-white hover:text-red-600"
@@ -236,10 +235,9 @@ export default function NetflixPromoPage() {
             <div className="flex items-start gap-3">
               <AlertCircle className="h-6 w-6 flex-shrink-0 text-red-600" />
               <div>
-                <p className="font-bold text-red-900">Important :</p>
+                <p className="text-sm font-bold uppercase tracking-[0.3em] text-red-500">Valable jusqu&apos;au 30 novembre 2024</p>
                 <p className="text-sm text-red-800">
-                  Offre valable jusqu&apos;au <strong>30 novembre 2024</strong>.
-                  Places limitées — réservez avant la fin du mois pour garantir le tarif.
+                  Profitez du tarif spécial avant le 30/11/2024. Après cette date, l&apos;offre repasse à 2 500 F.
                 </p>
               </div>
             </div>
@@ -303,15 +301,13 @@ export default function NetflixPromoPage() {
         <p className="mb-8 text-xl">
           Commandez maintenant et recevez vos accès en moins de 30 minutes !
         </p>
-        <a
-          href="https://wa.me/221784467465?text=Bonjour%20Sen%20Abonnement%2C%0A%0AJe%20souhaite%20profiter%20de%20l%27OFFRE%20FLASH%20%3A%0A%0A%F0%9F%93%A6%20Service%20%3A%20Netflix%20Premium%0A%E2%8F%B1%EF%B8%8F%20Dur%C3%A9e%20%3A%201%20mois%0A%F0%9F%92%B0%20Prix%20promo%20%3A%201%20300%20F%20CFA%0A%0AJe%20suis%20pr%C3%AAt%20%C3%A0%20finaliser%20ma%20commande.%0A%0AMerci%20!"
-          target="_blank"
-          rel="noreferrer"
+        <Link
+          href="/offres#catalogue"
           className="inline-flex items-center gap-2 rounded-full bg-yellow-400 px-8 py-4 text-lg font-bold text-red-900 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-yellow-300"
         >
           <MessageCircle className="h-6 w-6" />
-          Commander sur WhatsApp
-        </a>
+          Ajouter l&apos;offre au panier
+        </Link>
         <p className="mt-4 text-sm text-white/80">
           ⚡ Réponse en 2 minutes • Activation sous 30 minutes • Support 24/7
         </p>

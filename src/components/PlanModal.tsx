@@ -7,8 +7,6 @@ import Image from "next/image";
 import { serviceLogos } from "@/constants/serviceLogos";
 import { useCart } from "@/context/CartContext";
 
-const WHATSAPP_NUMBER = "221784467465";
-
 type PlanModalProps = {
   service: CatalogService;
   onClose: () => void;
@@ -65,10 +63,6 @@ export default function PlanModal({ service, onClose }: PlanModalProps) {
         <div className="mt-6 space-y-4 pb-2 sm:pb-0">
           {service.offers.map((plan) => {
             const formattedPrice = plan.price.toLocaleString("fr-FR");
-            const message = encodeURIComponent(
-              `Bonjour TerangaPremium,\n\nJe souhaite commander l\\'offre suivante :\n\n📦 Service : ${plan.name}\n⏱️ Durée : ${plan.duration}\n💰 Prix : ${formattedPrice} F CFA\n\nJe suis disponible pour finaliser la commande.\n\nMerci !`
-            );
-            const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${message}`;
             const handleAddToCart = () => {
               addItem({
                 id: plan.id,
@@ -76,6 +70,10 @@ export default function PlanModal({ service, onClose }: PlanModalProps) {
                 duration: plan.duration,
                 price: plan.price,
               });
+              if (typeof window !== "undefined") {
+                window.dispatchEvent(new CustomEvent("open-cart"));
+              }
+              onClose();
             };
 
             return (
@@ -108,31 +106,21 @@ export default function PlanModal({ service, onClose }: PlanModalProps) {
                       {formattedPrice} <span className="text-sm text-black/60">F</span>
                     </p>
                   </div>
-                  <div className="flex flex-col gap-2">
-                    <button
-                      type="button"
-                      className="rounded-full border border-black/10 px-4 py-2 text-sm text-black transition hover:border-black disabled:cursor-not-allowed disabled:opacity-50"
-                      onClick={handleAddToCart}
-                      disabled={plan.outOfStock}
-                    >
-                      Ajouter au panier
-                    </button>
-                    <a
-                      href={plan.outOfStock ? undefined : whatsappLink}
-                      target={plan.outOfStock ? undefined : "_blank"}
-                      rel={plan.outOfStock ? undefined : "noreferrer"}
-                      className={`btn-primary whitespace-nowrap px-5 py-2 text-sm ${
-                        plan.outOfStock ? "cursor-not-allowed opacity-50" : ""
-                      }`}
-                      onClick={(e) => plan.outOfStock && e.preventDefault()}
-                    >
-                      {plan.outOfStock ? "Indisponible" : "Commander ce plan"}
-                    </a>
-                  </div>
+                  <button
+                    type="button"
+                    className="rounded-full border border-black/10 px-4 py-2 text-sm text-black transition hover:border-black disabled:cursor-not-allowed disabled:opacity-50"
+                    onClick={handleAddToCart}
+                    disabled={plan.outOfStock}
+                  >
+                    {plan.outOfStock ? "Indisponible" : "Ajouter au panier"}
+                  </button>
                 </div>
               </div>
             );
           })}
+          <p className="rounded-2xl bg-black/5 px-4 py-3 text-sm text-black/60">
+            Ajoutez vos services au panier puis validez la commande depuis le panier pour finaliser sur WhatsApp avec vos informations.
+          </p>
         </div>
       </motion.div>
     </motion.div>

@@ -1,11 +1,15 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ShoppingBag, Trash2 } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 
-export default function CartDrawer() {
+type CartDrawerProps = {
+  showFloatingButton?: boolean;
+};
+
+export default function CartDrawer({ showFloatingButton = true }: CartDrawerProps) {
   const { items, removeItem, clear, total, buildWhatsAppLink } = useCart();
   const [isOpen, setIsOpen] = useState(false);
   const [firstName, setFirstName] = useState("");
@@ -33,21 +37,29 @@ export default function CartDrawer() {
     window.open(link, "_blank");
   };
 
+  useEffect(() => {
+    const openHandler = () => setIsOpen(true);
+    window.addEventListener("open-cart", openHandler as EventListener);
+    return () => window.removeEventListener("open-cart", openHandler as EventListener);
+  }, []);
+
   return (
     <>
-      <button
-        type="button"
-        onClick={() => setIsOpen(true)}
-        className="fixed bottom-4 left-4 z-50 flex items-center gap-1.5 rounded-full bg-white px-3 py-2 text-xs font-semibold text-black shadow-lg backdrop-blur-md transition hover:-translate-y-0.5 sm:bottom-5 sm:left-5 sm:gap-2 sm:px-4 sm:text-sm"
-      >
-        <ShoppingBag className="h-4 w-4 sm:h-5 sm:w-5" />
-        <span className="hidden sm:inline">Panier</span>
-        {items.length > 0 && (
-          <span className="rounded-full bg-[#E50914] px-1.5 py-0.5 text-xs text-white sm:px-2">
-            {items.length}
-          </span>
-        )}
-      </button>
+      {showFloatingButton && (
+        <button
+          type="button"
+          onClick={() => setIsOpen(true)}
+          className="fixed bottom-4 left-4 z-50 flex items-center gap-1.5 rounded-full bg-white px-3 py-2 text-xs font-semibold text-black shadow-lg backdrop-blur-md transition hover:-translate-y-0.5 sm:bottom-5 sm:left-5 sm:gap-2 sm:px-4 sm:text-sm"
+        >
+          <ShoppingBag className="h-4 w-4 sm:h-5 sm:w-5" />
+          <span className="hidden sm:inline">Panier</span>
+          {items.length > 0 && (
+            <span className="rounded-full bg-[#E50914] px-1.5 py-0.5 text-xs text-white sm:px-2">
+              {items.length}
+            </span>
+          )}
+        </button>
+      )}
 
       <AnimatePresence>
         {isOpen && (

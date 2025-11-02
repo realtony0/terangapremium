@@ -4,7 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu, ShoppingBag, X } from "lucide-react";
+import { useCart } from "@/context/CartContext";
 
 const navLinks = [
   { label: "Accueil", href: "/" },
@@ -14,6 +15,15 @@ const navLinks = [
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const { items } = useCart();
+
+  const openCart = () => {
+    if (typeof window !== "undefined") {
+      window.dispatchEvent(new CustomEvent("open-cart"));
+    }
+    setIsOpen(false);
+  };
+  const itemsCount = items.length;
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-white/90 shadow-[0_10px_30px_rgba(15,15,15,0.08)] backdrop-blur-xl">
@@ -45,6 +55,19 @@ export default function Navbar() {
         </nav>
 
         <div className="hidden items-center gap-2 md:flex lg:gap-3">
+          <button
+            type="button"
+            onClick={openCart}
+            className="relative flex items-center gap-2 rounded-full border border-black/10 px-4 py-2 text-xs font-medium text-black transition hover:border-black lg:px-6 lg:py-3 lg:text-sm"
+          >
+            <ShoppingBag size={16} />
+            Panier
+            {itemsCount > 0 && (
+              <span className="absolute -right-2 -top-2 inline-flex h-5 min-w-[20px] items-center justify-center rounded-full bg-[#E50914] px-1 text-xs text-white">
+                {itemsCount}
+              </span>
+            )}
+          </button>
           <Link href="/offres" className="btn-primary px-4 py-2 text-xs lg:px-6 lg:py-3 lg:text-sm">
             Découvrir
           </Link>
@@ -92,6 +115,19 @@ export default function Navbar() {
               >
                 Découvrir les offres
               </Link>
+              <button
+                type="button"
+                onClick={openCart}
+                className="flex w-full items-center justify-center gap-2 rounded-2xl border border-black/10 px-4 py-3 text-sm transition hover:border-black/20"
+              >
+                <ShoppingBag size={18} />
+                Ouvrir le panier
+                {itemsCount > 0 && (
+                  <span className="rounded-full bg-[#E50914] px-2 py-0.5 text-xs text-white">
+                    {itemsCount}
+                  </span>
+                )}
+              </button>
             </div>
           </motion.div>
         )}
