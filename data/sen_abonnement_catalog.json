@@ -468,6 +468,48 @@
     "headline": "Vos séries et films préférés en HD/4K",
     "offers": [
       {
+        "id": "appletv-1m",
+        "name": "Apple TV+",
+        "brandColor": "#1E90FF",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Apple Originals",
+        "description": "Apple TV+ avec toutes les séries Originals (Ted Lasso, Foundation, Severance) en 4K HDR. Compte personnel sécurisé.",
+        "features": [
+          "Streaming 4K HDR",
+          "Téléchargements offline",
+          "Compte personnel"
+        ]
+      },
+      {
+        "id": "appletv-6m",
+        "name": "Apple TV+",
+        "brandColor": "#1E90FF",
+        "price": 8000,
+        "duration": "6 mois",
+        "tag": "Pack 6 mois",
+        "description": "Apple TV+ 6 mois pour profiter des séries en continu sans coupure. Activation immédiate avec votre compte Apple.",
+        "features": [
+          "Streaming 4K HDR",
+          "Apple Originals",
+          "Paiement en CFA"
+        ]
+      },
+      {
+        "id": "appletv-12m",
+        "name": "Apple TV+",
+        "brandColor": "#1E90FF",
+        "price": 26000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Abonnement Apple TV+ 12 mois avec renouvellement automatique. Profitez de toutes les nouveautés Apple Originals.",
+        "features": [
+          "Prix annuel avantageux",
+          "Streaming 4K HDR",
+          "Accès multi-appareils"
+        ]
+      },
+      {
         "id": "hulu-1m",
         "name": "Hulu",
         "brandColor": "#1CE783",
@@ -1222,7 +1264,7 @@
         ]
       },
       {
-        "id": "appletv-2m",
+        "id": "appletv-6m",
         "name": "Apple TV+",
         "brandColor": "#000000",
         "price": 5100,
