@@ -1,14 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { CheckCircle2, Zap } from "lucide-react";
-import PlanModal from "./PlanModal";
-import catalogData from "@data/sen_abonnement_catalog.json";
-import { groupServicesByName } from "@/utils/catalog";
-import type { CatalogCategory, CatalogService } from "@/types/catalog";
+import NetflixPlanTrigger from "@/components/NetflixPlanTrigger";
 
 const highlights = [
   "Activation en 15 minutes",
@@ -17,26 +13,6 @@ const highlights = [
 ];
 
 export default function HeroSection() {
-  const services = useMemo(
-    () => groupServicesByName(catalogData as CatalogCategory[]),
-    []
-  );
-  const netflixService = useMemo<CatalogService | undefined>(
-    () => services.find((service) => service.name === "Netflix"),
-    [services]
-  );
-  const [selectedService, setSelectedService] = useState<CatalogService | null>(
-    null
-  );
-
-  const handleOpenNetflixModal = (event: React.MouseEvent<HTMLButtonElement>) => {
-    event.preventDefault();
-    event.stopPropagation();
-    if (netflixService) {
-      setSelectedService(netflixService);
-    }
-  };
-
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-white via-[#f8f8fb] to-white py-14 sm:py-16">
       <div className="pointer-events-none absolute inset-0">
@@ -61,7 +37,7 @@ export default function HeroSection() {
                   🔥 Offre flash Netflix
                 </span>
                 <h2 className="text-2xl font-semibold sm:text-3xl">
-                  Profil Netflix Premium UHD à{" "}
+                  Profil Netflix Premium UHD à {" "}
                   <span className="font-bold text-yellow-300">1 300 F / mois</span>
                 </h2>
                 <p className="text-sm text-white/80 sm:text-base">
@@ -90,7 +66,7 @@ export default function HeroSection() {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-3xl font-semibold leading-tight text-[#0f0f0f] sm:text-4xl lg:text-5xl"
             >
-              Vos abonnements streaming, musique et cloud livrés en{" "}
+              Vos abonnements streaming, musique et cloud livrés en {" "}
               <span className="bg-gradient-to-r from-red-500 to-red-700 bg-clip-text text-transparent">
                 30 minutes
               </span>
@@ -102,14 +78,10 @@ export default function HeroSection() {
             </p>
 
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-              <button
-                type="button"
-                onClick={handleOpenNetflixModal}
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#E50914] px-6 py-3 text-base font-semibold text-white shadow-[0_18px_40px_rgba(229,9,20,0.25)] transition hover:bg-[#ff4754] sm:px-8 sm:text-lg"
-              >
+              <NetflixPlanTrigger className="inline-flex items-center justify-center gap-2 rounded-full bg-[#E50914] px-6 py-3 text-base font-semibold text-white shadow-[0_18px_40px_rgba(229,9,20,0.25)] transition hover:bg-[#ff4754] sm:px-8 sm:text-lg">
                 <Zap className="h-5 w-5" />
-                Ajouter au panier
-              </button>
+                Voir les options Netflix
+              </NetflixPlanTrigger>
             </div>
 
             <ul className="mt-2 space-y-2">
@@ -167,24 +139,14 @@ export default function HeroSection() {
                   <span className="mb-1 text-sm text-black/50">/ mois</span>
                 </div>
 
-                <button
-                  type="button"
-                  onClick={handleOpenNetflixModal}
-                  className="inline-flex items-center justify-center rounded-full bg-black px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#E50914]"
-                >
+                <NetflixPlanTrigger className="inline-flex items-center justify-center rounded-full bg-black px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#E50914]">
                   Ajouter au panier
-                </button>
+                </NetflixPlanTrigger>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {selectedService && (
-        <PlanModal
-          service={selectedService}
-          onClose={() => setSelectedService(null)}
-        />
-      )}
     </section>
   );
 }

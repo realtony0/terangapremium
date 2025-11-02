@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
+import NetflixPlanTrigger from "@/components/NetflixPlanTrigger";
 import {
   CheckCircle2,
   Zap,
@@ -129,13 +129,10 @@ export default function NetflixPromoPage() {
             </div>
 
             <div className="flex flex-col gap-3 sm:flex-row">
-              <Link
-                href="/offres#catalogue"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-yellow-400 px-8 py-4 text-lg font-bold text-red-900 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-yellow-300"
-              >
+              <NetflixPlanTrigger className="inline-flex items-center justify-center gap-2 rounded-full bg-yellow-400 px-8 py-4 text-lg font-bold text-red-900 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-yellow-300">
                 <MessageCircle className="h-5 w-5" />
                 Ajouter au panier
-              </Link>
+              </NetflixPlanTrigger>
               <a
                 href="#details"
                 className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-white bg-transparent px-8 py-4 text-lg font-bold text-white transition-all duration-300 hover:bg-white hover:text-red-600"
@@ -301,13 +298,10 @@ export default function NetflixPromoPage() {
         <p className="mb-8 text-xl">
           Commandez maintenant et recevez vos accès en moins de 30 minutes !
         </p>
-        <Link
-          href="/offres#catalogue"
-          className="inline-flex items-center gap-2 rounded-full bg-yellow-400 px-8 py-4 text-lg font-bold text-red-900 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-yellow-300"
-        >
+        <NetflixPlanTrigger className="inline-flex items-center gap-2 rounded-full bg-yellow-400 px-8 py-4 text-lg font-bold text-red-900 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-yellow-300">
           <MessageCircle className="h-6 w-6" />
           Ajouter l&apos;offre au panier
-        </Link>
+        </NetflixPlanTrigger>
         <p className="mt-4 text-sm text-white/80">
           ⚡ Réponse en 2 minutes • Activation sous 30 minutes • Support 24/7
         </p>
