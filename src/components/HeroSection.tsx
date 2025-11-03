@@ -77,6 +77,10 @@ export default function HeroSection() {
               Ajoutez vos services au panier, validez en CFA et recevez vos accès par WhatsApp.
             </p>
 
+            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#E50914]">
+              Petit prix, grande satisfaction.
+            </p>
+
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <NetflixPlanTrigger className="inline-flex items-center justify-center gap-2 rounded-full bg-[#E50914] px-6 py-3 text-base font-semibold text-white shadow-[0_18px_40px_rgba(229,9,20,0.25)] transition hover:bg-[#ff4754] sm:px-8 sm:text-lg">
                 <Zap className="h-5 w-5" />

@@ -47,9 +47,12 @@ export default function Footer() {
             <p className="mb-3 text-lg font-semibold text-black">
               TerangaPremium
             </p>
-            <p className="mb-4 max-w-md text-sm text-black/60">
+            <p className="mb-2 max-w-md text-sm text-black/60">
               Votre boutique d’abonnements streaming, musique, TV et cloud au
               Sénégal. Activation rapide, paiement local, support 24/7.
+            </p>
+            <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#E50914]">
+              Petit prix, grande satisfaction.
             </p>
             <div className="flex flex-wrap gap-2">
               {socials.map((social) => (

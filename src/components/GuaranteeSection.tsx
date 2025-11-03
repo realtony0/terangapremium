@@ -56,7 +56,7 @@ export default function GuaranteeSection() {
             Pourquoi 2 000+ Sénégalais nous font confiance ?
           </h2>
           <p className="mx-auto max-w-2xl text-base text-white/80 sm:text-lg md:text-xl">
-            Transparence, rapidité et qualité : nos 3 piliers pour votre satisfaction
+            Transparence, rapidité et qualité : nos 3 piliers pour votre satisfaction.
           </p>
         </motion.div>
 
