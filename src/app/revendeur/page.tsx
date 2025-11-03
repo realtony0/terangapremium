@@ -1,8 +1,18 @@
-const resellerOffers = [
-  { name: "Netflix", price: "5 300 F", profiles: "5 profils" },
-  { name: "Prime Video", price: "5 500 F", profiles: "6 profils" },
-  { name: "Disney+", price: "10 900 F", profiles: "6 profils" },
-  { name: "Crunchyroll", price: "4 400 F", profiles: "5 profils" },
+import { useMemo, useState } from "react";
+import { useCart } from "@/context/CartContext";
+
+type ResellerOffer = {
+  name: string;
+  brand: string;
+  price: number;
+  profiles: string;
+};
+
+const resellerOffers: ResellerOffer[] = [
+  { name: "Netflix Premium (Revendeur)", brand: "Netflix", price: 5300, profiles: "5 profils" },
+  { name: "Prime Video Premium (Revendeur)", brand: "Prime Video", price: 5500, profiles: "6 profils" },
+  { name: "Disney+ Premium (Revendeur)", brand: "Disney+", price: 10900, profiles: "6 profils" },
+  { name: "Crunchyroll Premium (Revendeur)", brand: "Crunchyroll", price: 4400, profiles: "5 profils" },
 ];
 
 const highlights = [
@@ -31,6 +41,42 @@ const workflow = [
 ];
 
 export default function RevendeurPage() {
+  const { addItem } = useCart();
+  const [selected, setSelected] = useState<string[]>([]);
+
+  const toggleOffer = (offerId: string) => {
+    setSelected((current) =>
+      current.includes(offerId)
+        ? current.filter((id) => id !== offerId)
+        : [...current, offerId]
+    );
+  };
+
+  const canValidate = selected.length >= 3;
+
+  const selectedDetail = useMemo(
+    () =>
+      resellerOffers.filter((offer) =>
+        selected.includes(offer.name)
+      ),
+    [selected]
+  );
+
+  const handleValidate = () => {
+    if (!canValidate) return;
+    selectedDetail.forEach((offer) => {
+      addItem({
+        id: `revendeur-${offer.brand.toLowerCase().replace(/[^a-z0-9]/g, "")}-1m`,
+        serviceName: `${offer.brand} • Revendeur`,
+        duration: "1 mois",
+        price: offer.price,
+      });
+    });
+    window.dispatchEvent(new CustomEvent("open-cart"));
+  };
+
+  const total = selectedDetail.reduce((sum, offer) => sum + offer.price, 0);
+
   return (
     <main className="bg-gradient-to-b from-red-50 via-white to-white pb-24 pt-24 text-black">
       <section className="mx-auto flex max-w-6xl flex-col gap-16 px-4 lg:px-8">
@@ -66,16 +112,20 @@ export default function RevendeurPage() {
             <h2 className="text-2xl font-semibold">Comptes premium 1 mois</h2>
             <p className="mt-2 text-sm text-black/60">
               Prix nets revendeur livrés avec profils sécurisés. Les comptes sont
-              renouvelables à volonté.
+              renouvelables à volonté. Sélectionnez au minimum 3 comptes pour valider votre commande.
             </p>
             <div className="mt-8 space-y-4">
               {resellerOffers.map((offer) => (
                 <div
                   key={offer.name}
-                  className="flex flex-col gap-2 rounded-2xl border border-black/5 bg-gradient-to-br from-white to-red-50/30 p-6 sm:flex-row sm:items-center sm:justify-between"
+                  className={`flex flex-col gap-2 rounded-2xl border p-6 transition sm:flex-row sm:items-center sm:justify-between ${
+                    selected.includes(offer.name)
+                      ? "border-[#E50914] bg-red-50/60 shadow-[0_20px_40px_rgba(229,9,20,0.1)]"
+                      : "border-black/5 bg-gradient-to-br from-white to-red-50/30"
+                  }`}
                 >
                   <div>
-                    <p className="text-lg font-semibold">{offer.name}</p>
+                    <p className="text-lg font-semibold">{offer.brand}</p>
                     <p className="text-sm text-black/60">
                       {offer.profiles.charAt(0).toUpperCase() +
                         offer.profiles.slice(1)}
@@ -85,10 +135,47 @@ export default function RevendeurPage() {
                     <p className="text-sm uppercase tracking-[0.3em] text-red-600/70">
                       1 mois
                     </p>
-                    <p className="text-2xl font-semibold">{offer.price}</p>
+                    <p className="text-2xl font-semibold">
+                      {offer.price.toLocaleString("fr-FR")} F
+                    </p>
                   </div>
+                  <button
+                    type="button"
+                    onClick={() => toggleOffer(offer.name)}
+                    className={`rounded-full px-4 py-2 text-sm font-semibold transition ${
+                      selected.includes(offer.name)
+                        ? "bg-[#E50914] text-white shadow hover:bg-[#ff4754]"
+                        : "border border-black/10 text-black hover:border-black"
+                    }`}
+                  >
+                    {selected.includes(offer.name) ? "Sélectionné" : "Ajouter"}
+                  </button>
                 </div>
               ))}
+            </div>
+            <div className="mt-6 rounded-2xl border border-red-100 bg-red-50/70 p-5 text-sm text-black">
+              <p className="font-semibold text-[#E50914]">
+                Minimum 3 comptes (actuellement {selected.length} sélectionné
+                {selected.length > 1 ? "s" : ""})
+              </p>
+              <p className="mt-2 text-black/70">
+                Total estimatif :{" "}
+                <span className="font-semibold text-black">
+                  {total.toLocaleString("fr-FR")} F
+                </span>
+              </p>
+              <button
+                type="button"
+                onClick={handleValidate}
+                disabled={!canValidate}
+                className={`mt-4 inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold transition ${
+                  canValidate
+                    ? "bg-[#E50914] text-white shadow hover:bg-[#ff4754]"
+                    : "cursor-not-allowed bg-black/10 text-black/50"
+                }`}
+              >
+                Valider la commande via panier
+              </button>
             </div>
           </div>
 
