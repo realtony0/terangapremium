@@ -106,7 +106,7 @@ export default function NetflixPromoPage() {
       <section className="mb-12 overflow-hidden rounded-3xl border-2 border-red-500 bg-gradient-to-br from-red-600 via-red-500 to-orange-500 p-8 text-white shadow-2xl md:p-12">
         <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
           <div>
-            <div className="mb-4 inline-flex animate-pulse items-center gap-2 rounded-full bg-yellow-400 px-4 py-2 text-sm font-black uppercase tracking-wider text-red-900">
+            <div className="mb-4 inline-flex animate-pulse items-center gap-2 rounded-full g bg-black px-4 py-2 text-sm font-black uppercase tracking-wider text-white">
               🔥 Offre flash jusqu’au 30 novembre
             </div>
             <h1 className="mb-4 text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
@@ -129,7 +129,7 @@ export default function NetflixPromoPage() {
             </div>
 
             <div className="flex flex-col gap-3 sm:flex-row">
-              <NetflixPlanTrigger className="inline-flex items-center justify-center gap-2 rounded-full bg-yellow-400 px-8 py-4 text-lg font-bold text-red-900 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-yellow-300">
+              <NetflixPlanTrigger className="inline-flex items-center justify-center gap-2 rounded-full bg-black text-white px-8 py-4 text-lg font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:bg-[#E50914]">
                 <MessageCircle className="h-5 w-5" />
                 Ajouter au panier
               </NetflixPlanTrigger>
@@ -152,11 +152,11 @@ export default function NetflixPromoPage() {
                 className="w-full bg-black p-12"
               />
             </div>
-            <div className="absolute -bottom-4 -right-4 rounded-2xl bg-yellow-400 px-6 py-3 text-center shadow-xl">
-              <p className="text-sm font-bold uppercase tracking-wider text-red-900">
+            <div className="absolute -bottom-4 -right-4 rounded-2xl g bg-black px-6 py-3 text-center shadow-xl">
+              <p className="text-sm font-bold uppercase tracking-wider text-white">
                 Stocks limités
               </p>
-              <p className="text-2xl font-black text-red-900">1 300 F</p>
+              <p className="text-2xl font-black text-white">1 300 F</p>
             </div>
           </div>
         </div>
@@ -298,7 +298,7 @@ export default function NetflixPromoPage() {
         <p className="mb-8 text-xl">
           Commandez maintenant et recevez vos accès en moins de 30 minutes !
         </p>
-        <NetflixPlanTrigger className="inline-flex items-center gap-2 rounded-full bg-yellow-400 px-8 py-4 text-lg font-bold text-red-900 shadow-xl transition-all duration-300 hover:scale-105 hover:bg-yellow-300">
+        <NetflixPlanTrigger className="inline-flex items-center gap-2 rounded-full g bg-black px-8 py-4 text-lg font-bold text-white shadow-xl transition-all duration-300 hover:scale-105 hover:bg-yellow-300">
           <MessageCircle className="h-6 w-6" />
           Ajouter l’offre au panier
         </NetflixPlanTrigger>

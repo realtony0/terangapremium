@@ -108,7 +108,11 @@ export default function PlanModal({ service, onClose }: PlanModalProps) {
                   </div>
                   <button
                     type="button"
-                    className="rounded-full border border-black/10 px-4 py-2 text-sm text-black transition hover:border-black disabled:cursor-not-allowed disabled:opacity-50"
+                    className={`rounded-full px-4 py-2 text-sm font-semibold transition disabled:cursor-not-allowed disabled:opacity-50 ${
+                      plan.outOfStock
+                        ? "bg-black/10 text-black/50"
+                        : "bg-black text-white hover:bg-[#E50914]"
+                    }`}
                     onClick={handleAddToCart}
                     disabled={plan.outOfStock}
                   >
