@@ -249,7 +249,7 @@
         "id": "icloud-200go",
         "name": "iCloud+",
         "brandColor": "#0A84FF",
-        "price": 4000,
+        "price": 3900,
         "duration": "1 mois",
         "tag": "200 Go",
         "description": "Stockage Apple iCloud+ avec Relais Privé, Hide My Email et sécurité maximale. Compte personnel.",
@@ -263,7 +263,7 @@
         "id": "icloud-2to",
         "name": "iCloud+",
         "brandColor": "#0A84FF",
-        "price": 9000,
+        "price": 8900,
         "duration": "1 mois",
         "tag": "2 To",
         "description": "Stockage Apple iCloud+ avec Relais Privé, Hide My Email et sécurité maximale. Compte personnel.",
@@ -1020,18 +1020,74 @@
         ]
       },
       {
-        "id": "youtube-premium-1m",
         "name": "YouTube Premium",
         "brandColor": "#FF0000",
-        "price": 3500,
-        "duration": "1 mois",
-        "tag": "Sans pub",
         "description": "Abonnement YouTube Premium pour regarder sans publicité, écouter en arrière-plan et accéder à YouTube Music Premium inclus. Activé directement sur votre compte Google personnel pour une expérience optimale.",
         "features": [
           "Zéro publicité",
           "Lecture arrière-plan",
           "YouTube Music inclus"
-        ]
+        ],
+        "id": "youtube-premium-1m",
+        "duration": "1 mois",
+        "price": 2400,
+        "tag": "Sans pub"
+      },
+      {
+        "name": "YouTube Premium",
+        "brandColor": "#FF0000",
+        "description": "Abonnement YouTube Premium pour regarder sans publicité, écouter en arrière-plan et accéder à YouTube Music Premium inclus. Activé directement sur votre compte Google personnel pour une expérience optimale.",
+        "features": [
+          "Zéro publicité",
+          "Lecture arrière-plan",
+          "YouTube Music inclus"
+        ],
+        "id": "youtube-premium-2m",
+        "duration": "2 mois",
+        "price": 4400,
+        "tag": "Pack duo"
+      },
+      {
+        "name": "YouTube Premium",
+        "brandColor": "#FF0000",
+        "description": "Abonnement YouTube Premium pour regarder sans publicité, écouter en arrière-plan et accéder à YouTube Music Premium inclus. Activé directement sur votre compte Google personnel pour une expérience optimale.",
+        "features": [
+          "Zéro publicité",
+          "Lecture arrière-plan",
+          "YouTube Music inclus"
+        ],
+        "id": "youtube-premium-3m",
+        "duration": "3 mois",
+        "price": 6400,
+        "tag": "Quarter"
+      },
+      {
+        "name": "YouTube Premium",
+        "brandColor": "#FF0000",
+        "description": "Abonnement YouTube Premium pour regarder sans publicité, écouter en arrière-plan et accéder à YouTube Music Premium inclus. Activé directement sur votre compte Google personnel pour une expérience optimale.",
+        "features": [
+          "Zéro publicité",
+          "Lecture arrière-plan",
+          "YouTube Music inclus"
+        ],
+        "id": "youtube-premium-6m",
+        "duration": "6 mois",
+        "price": 11900,
+        "tag": "Mid-year"
+      },
+      {
+        "name": "YouTube Premium",
+        "brandColor": "#FF0000",
+        "description": "Abonnement YouTube Premium pour regarder sans publicité, écouter en arrière-plan et accéder à YouTube Music Premium inclus. Activé directement sur votre compte Google personnel pour une expérience optimale.",
+        "features": [
+          "Zéro publicité",
+          "Lecture arrière-plan",
+          "YouTube Music inclus"
+        ],
+        "id": "youtube-premium-12m",
+        "duration": "12 mois",
+        "price": 20400,
+        "tag": "Annuel"
       }
     ]
   },
@@ -1419,7 +1475,7 @@
         "id": "capcut-pro-1m",
         "name": "CapCut Pro",
         "brandColor": "#000000",
-        "price": 5300,
+        "price": 3900,
         "duration": "1 mois",
         "tag": "Montage pro",
         "description": "Passez au niveau supérieur avec CapCut Pro : tous les effets, transitions, polices et filtres professionnels sans filigrane ni restriction. Compte activé avec votre email personnel. Idéal pour créateurs TikTok, Instagram et YouTube.",
@@ -1622,7 +1678,7 @@
         "id": "cloudplus-200go-3m",
         "name": "iCloud+ 200 Go",
         "brandColor": "#1A73E8",
-        "price": 7000,
+        "price": 9900,
         "duration": "3 mois",
         "tag": "Famille & Pro",
         "description": "Forfait iCloud+ 200 Go idéal pour partager avec la famille ou gérer des projets volumineux en toute sécurité.",
