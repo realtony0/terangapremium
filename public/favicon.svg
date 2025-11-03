@@ -1,16 +1,7 @@
 <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="teranga-ring" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#a00017"/>
-      <stop offset="100%" stop-color="#ff1f3d"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="64" height="64" rx="18" fill="#101010"/>
-  <rect x="3" y="3" width="58" height="58" rx="16" stroke="url(#teranga-ring)" stroke-width="4" fill="none"/>
-
+  <rect width="64" height="64" rx="16" fill="#101010"/>
   <g transform="translate(12 12)">
-    <path d="M8 0h16c7.2 0 12 4.2 12 10.4 0 4.9-2.9 8.3-7.6 9.8L28 40h-8.1l0-18.8H8V40H0V0h8z" fill="#d90429"/>
-    <path d="M32 12h8c6.4 0 10.8 3.8 10.8 9.4 0 6.5-5 10.6-12.6 10.6H36V50h-8V12h4z" fill="#ffffff"/>
+    <path d="M0 0h18c9.5 0 16 5.4 16 13.5 0 6.4-3.6 10.8-9.6 12.6L29 40h-9.5L16 27.8H8V40H0V0z" fill="#E50914"/>
+    <path d="M28 12h10c7.8 0 13.5 4.6 13.5 11.6 0 8-5.8 12.4-14.6 12.4H36V50h-8V12z" fill="#ffffff"/>
   </g>
 </svg>
