@@ -3,33 +3,36 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-export default function PopularRibbon() {
+type PopularRibbonProps = {
+  title?: string;
+  description?: string;
+  ctaLabel?: string;
+  href?: string;
+};
+
+export default function PopularRibbon({
+  title = "Petit prix, grande satisfaction.",
+  description = "Découvrez les offres du moment : Netflix, IPTV, Spotify, Disney+, Apple TV+, Apple Music…",
+  ctaLabel = "Voir tout le catalogue",
+  href = "/offres#catalogue",
+}: PopularRibbonProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
-      className="mb-10 overflow-hidden rounded-[28px] border border-black/5 bg-white/70 px-6 py-5 shadow-[0_20px_60px_rgba(15,15,15,0.08)] backdrop-blur"
+      className="mb-12 overflow-hidden rounded-[28px] border border-black/5 bg-black px-6 py-6 text-white shadow-[0_25px_70px_rgba(15,15,15,0.25)] sm:px-10"
     >
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <div className="space-y-1">
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-black/40">
-            Découvrez toutes nos offres
-          </p>
-          <h3 className="text-2xl font-semibold text-black">
-            Netflix, Disney+, Apple Music, IPTV, Prime Video… tout est prêt à
-            être activé.
-          </h3>
-          <p className="text-sm text-black/60">
-            Parcourez le catalogue complet et composez votre panier en quelques
-            minutes.
-          </p>
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <div className="space-y-2">
+          <h3 className="text-2xl font-semibold sm:text-3xl">{title}</h3>
+          <p className="text-sm text-white/70 sm:text-base">{description}</p>
         </div>
         <Link
-          href="/offres#catalogue"
-          className="inline-flex items-center justify-center rounded-full bg-[#0f0f0f] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#E50914]"
+          href={href}
+          className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition hover:bg-[#E50914] hover:text-white"
         >
-          Voir le catalogue complet
+          {ctaLabel}
         </Link>
       </div>
     </motion.div>

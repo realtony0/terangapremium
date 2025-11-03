@@ -232,7 +232,7 @@
     "headline": "Stockage sécurisé pour vos données",
     "offers": [
       {
-        "id": "icloud-50go",
+        "id": "cloudplus-50go-1m",
         "name": "iCloud+ 50 Go",
         "brandColor": "#0A84FF",
         "price": 2000,
@@ -246,31 +246,59 @@
         ]
       },
       {
-        "id": "icloud-200go",
-        "name": "iCloud+ 200 Go",
+        "id": "cloudplus-50go-3m",
+        "name": "iCloud+ 50 Go",
         "brandColor": "#0A84FF",
-        "price": 3900,
-        "duration": "1 mois",
-        "tag": "200 Go",
-        "description": "Stockage Apple iCloud+ avec Relais Privé, Hide My Email et sécurité maximale. Compte personnel.",
+        "price": 4900,
+        "duration": "3 mois",
+        "tag": "50 Go",
+        "description": "Stockage iCloud+ 50 Go pour sécuriser vos photos et documents sur iPhone, iPad et Mac.",
         "features": [
-          "Compte personnel",
           "Sauvegarde automatique",
-          "Support Apple"
+          "Relais privé",
+          "Hide My Email"
         ]
       },
       {
-        "id": "icloud-2to",
+        "id": "cloudplus-200go-1m",
+        "name": "iCloud+ 200 Go",
+        "brandColor": "#1A73E8",
+        "price": 3900,
+        "duration": "1 mois",
+        "tag": "200 Go",
+        "description": "Stockage iCloud+ 200 Go parfait pour partager avec toute la famille.",
+        "features": [
+          "Partage familial",
+          "Extensions Maison intelligente",
+          "Sauvegarde multi-appareils"
+        ]
+      },
+      {
+        "id": "cloudplus-200go-3m",
+        "name": "iCloud+ 200 Go",
+        "brandColor": "#1A73E8",
+        "price": 9900,
+        "duration": "3 mois",
+        "tag": "200 Go",
+        "description": "Stockage iCloud+ 200 Go parfait pour partager avec toute la famille.",
+        "features": [
+          "Partage familial",
+          "Extensions Maison intelligente",
+          "Sauvegarde multi-appareils"
+        ]
+      },
+      {
+        "id": "cloudplus-2to-1m",
         "name": "iCloud+ 2 To",
-        "brandColor": "#0A84FF",
+        "brandColor": "#0b66e4",
         "price": 8900,
         "duration": "1 mois",
         "tag": "2 To",
-        "description": "Stockage Apple iCloud+ avec Relais Privé, Hide My Email et sécurité maximale. Compte personnel.",
+        "description": "Stockage iCloud+ 2 To pour créateurs, professionnels et grandes bibliothèques médias.",
         "features": [
-          "Compte personnel",
-          "Sauvegarde automatique",
-          "Support Apple"
+          "2 To de stockage",
+          "Comprend iCloud Drive",
+          "Support priorité"
         ]
       }
     ]
@@ -544,13 +572,335 @@
     "headline": "Vos séries et films préférés en HD/4K",
     "offers": [
       {
+        "id": "appletv-1m",
+        "name": "Apple TV+",
+        "brandColor": "#1E90FF",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Apple Originals",
+        "description": "Apple TV+ avec toutes les séries Originals (Ted Lasso, Foundation, Severance) en 4K HDR. Compte personnel sécurisé.",
+        "features": [
+          "Streaming 4K HDR",
+          "Téléchargements offline",
+          "Compte personnel"
+        ]
+      },
+      {
+        "id": "appletv-6m",
+        "name": "Apple TV+",
+        "brandColor": "#1E90FF",
+        "price": 8000,
+        "duration": "6 mois",
+        "tag": "Pack 6 mois",
+        "description": "Apple TV+ 6 mois pour profiter des séries en continu sans coupure. Activation immédiate avec votre compte Apple.",
+        "features": [
+          "Streaming 4K HDR",
+          "Apple Originals",
+          "Paiement en CFA"
+        ]
+      },
+      {
+        "id": "appletv-12m",
+        "name": "Apple TV+",
+        "brandColor": "#1E90FF",
+        "price": 26000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Abonnement Apple TV+ 12 mois avec renouvellement automatique. Profitez de toutes les nouveautés Apple Originals.",
+        "features": [
+          "Prix annuel avantageux",
+          "Streaming 4K HDR",
+          "Accès multi-appareils"
+        ]
+      },
+      {
+        "id": "crunchyroll-1m",
+        "name": "Crunchyroll",
+        "brandColor": "#F47521",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Simulcast",
+        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
+        "features": [
+          "Compte personnel",
+          "Téléchargements",
+          "Catalogue illimité"
+        ]
+      },
+      {
+        "id": "crunchyroll-2m",
+        "name": "Crunchyroll",
+        "brandColor": "#F47521",
+        "price": 5500,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
+        "features": [
+          "Compte personnel",
+          "Téléchargements",
+          "Catalogue illimité"
+        ]
+      },
+      {
+        "id": "crunchyroll-3m",
+        "name": "Crunchyroll",
+        "brandColor": "#F47521",
+        "price": 8000,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
+        "features": [
+          "Compte personnel",
+          "Téléchargements",
+          "Catalogue illimité"
+        ]
+      },
+      {
+        "id": "crunchyroll-6m",
+        "name": "Crunchyroll",
+        "brandColor": "#F47521",
+        "price": 14000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
+        "features": [
+          "Compte personnel",
+          "Téléchargements",
+          "Catalogue illimité"
+        ]
+      },
+      {
+        "id": "crunchyroll-12m",
+        "name": "Crunchyroll",
+        "brandColor": "#F47521",
+        "price": 25000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
+        "features": [
+          "Compte personnel",
+          "Téléchargements",
+          "Catalogue illimité"
+        ]
+      },
+      {
+        "id": "disney-1m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Disney univers",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "disney-2m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 5500,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "disney-3m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 8000,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "disney-6m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 15000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "disney-12m",
+        "name": "Disney+",
+        "brandColor": "#113CCF",
+        "price": 25000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hbomax-1m",
+        "name": "HBO Max",
+        "brandColor": "#5B0BB5",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "Max Originals",
+        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hbomax-2m",
+        "name": "HBO Max",
+        "brandColor": "#5B0BB5",
+        "price": 5500,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hbomax-3m",
+        "name": "HBO Max",
+        "brandColor": "#5B0BB5",
+        "price": 8000,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hbomax-6m",
+        "name": "HBO Max",
+        "brandColor": "#5B0BB5",
+        "price": 15000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hbomax-12m",
+        "name": "HBO Max",
+        "brandColor": "#5B0BB5",
+        "price": 28000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
+        "features": [
+          "Compte personnel",
+          "4K HDR",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hulu-1m",
+        "name": "Hulu",
+        "brandColor": "#1CE783",
+        "price": 3000,
+        "duration": "1 mois",
+        "tag": "US shows",
+        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
+        "features": [
+          "Compte personnel",
+          "Qualité HD",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hulu-2m",
+        "name": "Hulu",
+        "brandColor": "#1CE783",
+        "price": 5500,
+        "duration": "2 mois",
+        "tag": "Pack duo",
+        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
+        "features": [
+          "Compte personnel",
+          "Qualité HD",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hulu-3m",
+        "name": "Hulu",
+        "brandColor": "#1CE783",
+        "price": 8000,
+        "duration": "3 mois",
+        "tag": "Quarter",
+        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
+        "features": [
+          "Compte personnel",
+          "Qualité HD",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hulu-6m",
+        "name": "Hulu",
+        "brandColor": "#1CE783",
+        "price": 15000,
+        "duration": "6 mois",
+        "tag": "Mid-year",
+        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
+        "features": [
+          "Compte personnel",
+          "Qualité HD",
+          "Téléchargements"
+        ]
+      },
+      {
+        "id": "hulu-12m",
+        "name": "Hulu",
+        "brandColor": "#1CE783",
+        "price": 28000,
+        "duration": "12 mois",
+        "tag": "Annuel",
+        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
+        "features": [
+          "Compte personnel",
+          "Qualité HD",
+          "Téléchargements"
+        ]
+      },
+      {
         "id": "netflix-1m",
         "name": "Netflix",
         "brandColor": "#E50914",
         "price": 1300,
         "duration": "1 mois",
-        "tag": "Premium",
-        "description": "Netflix Premium UHD en qualité 4K avec audio multi-langues et HDR. Compte personnel dédié.",
+        "tag": "Profil individuel",
+        "description": "Profil Netflix Premium UHD personnel en 4K HDR, activation en 15 minutes.",
         "features": [
           "Compte personnel",
           "Qualité UHD 4K",
@@ -695,328 +1045,6 @@
           "Full HD",
           "Téléchargements",
           "Prime Channels"
-        ]
-      },
-      {
-        "id": "disney-1m",
-        "name": "Disney+",
-        "brandColor": "#113CCF",
-        "price": 3000,
-        "duration": "1 mois",
-        "tag": "Disney univers",
-        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "disney-2m",
-        "name": "Disney+",
-        "brandColor": "#113CCF",
-        "price": 5500,
-        "duration": "2 mois",
-        "tag": "Pack duo",
-        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "disney-3m",
-        "name": "Disney+",
-        "brandColor": "#113CCF",
-        "price": 8000,
-        "duration": "3 mois",
-        "tag": "Quarter",
-        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "disney-6m",
-        "name": "Disney+",
-        "brandColor": "#113CCF",
-        "price": 15000,
-        "duration": "6 mois",
-        "tag": "Mid-year",
-        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "disney-12m",
-        "name": "Disney+",
-        "brandColor": "#113CCF",
-        "price": 25000,
-        "duration": "12 mois",
-        "tag": "Annuel",
-        "description": "Disney+ Premium : Marvel, Star Wars, Pixar, National Geographic en 4K HDR. Compte personnel.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "appletv-1m",
-        "name": "Apple TV+",
-        "brandColor": "#1E90FF",
-        "price": 3000,
-        "duration": "1 mois",
-        "tag": "Apple Originals",
-        "description": "Apple TV+ avec toutes les séries Originals (Ted Lasso, Foundation, Severance) en 4K HDR. Compte personnel sécurisé.",
-        "features": [
-          "Streaming 4K HDR",
-          "Téléchargements offline",
-          "Compte personnel"
-        ]
-      },
-      {
-        "id": "appletv-6m",
-        "name": "Apple TV+",
-        "brandColor": "#1E90FF",
-        "price": 8000,
-        "duration": "6 mois",
-        "tag": "Pack 6 mois",
-        "description": "Apple TV+ 6 mois pour profiter des séries en continu sans coupure. Activation immédiate avec votre compte Apple.",
-        "features": [
-          "Streaming 4K HDR",
-          "Apple Originals",
-          "Paiement en CFA"
-        ]
-      },
-      {
-        "id": "appletv-12m",
-        "name": "Apple TV+",
-        "brandColor": "#1E90FF",
-        "price": 26000,
-        "duration": "12 mois",
-        "tag": "Annuel",
-        "description": "Abonnement Apple TV+ 12 mois avec renouvellement automatique. Profitez de toutes les nouveautés Apple Originals.",
-        "features": [
-          "Prix annuel avantageux",
-          "Streaming 4K HDR",
-          "Accès multi-appareils"
-        ]
-      },
-      {
-        "id": "hulu-1m",
-        "name": "Hulu",
-        "brandColor": "#1CE783",
-        "price": 3000,
-        "duration": "1 mois",
-        "tag": "US shows",
-        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
-        "features": [
-          "Compte personnel",
-          "Qualité HD",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "hulu-2m",
-        "name": "Hulu",
-        "brandColor": "#1CE783",
-        "price": 5500,
-        "duration": "2 mois",
-        "tag": "Pack duo",
-        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
-        "features": [
-          "Compte personnel",
-          "Qualité HD",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "hulu-3m",
-        "name": "Hulu",
-        "brandColor": "#1CE783",
-        "price": 8000,
-        "duration": "3 mois",
-        "tag": "Quarter",
-        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
-        "features": [
-          "Compte personnel",
-          "Qualité HD",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "hulu-6m",
-        "name": "Hulu",
-        "brandColor": "#1CE783",
-        "price": 15000,
-        "duration": "6 mois",
-        "tag": "Mid-year",
-        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
-        "features": [
-          "Compte personnel",
-          "Qualité HD",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "hulu-12m",
-        "name": "Hulu",
-        "brandColor": "#1CE783",
-        "price": 28000,
-        "duration": "12 mois",
-        "tag": "Annuel",
-        "description": "Hulu US (FX, ABC, Hulu Originals) pour suivre les séries américaines en simulcast.",
-        "features": [
-          "Compte personnel",
-          "Qualité HD",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "hbomax-1m",
-        "name": "HBO Max",
-        "brandColor": "#5B0BB5",
-        "price": 3000,
-        "duration": "1 mois",
-        "tag": "Max Originals",
-        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "hbomax-2m",
-        "name": "HBO Max",
-        "brandColor": "#5B0BB5",
-        "price": 5500,
-        "duration": "2 mois",
-        "tag": "Pack duo",
-        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "hbomax-3m",
-        "name": "HBO Max",
-        "brandColor": "#5B0BB5",
-        "price": 8000,
-        "duration": "3 mois",
-        "tag": "Quarter",
-        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "hbomax-6m",
-        "name": "HBO Max",
-        "brandColor": "#5B0BB5",
-        "price": 15000,
-        "duration": "6 mois",
-        "tag": "Mid-year",
-        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "hbomax-12m",
-        "name": "HBO Max",
-        "brandColor": "#5B0BB5",
-        "price": 28000,
-        "duration": "12 mois",
-        "tag": "Annuel",
-        "description": "Max combine HBO, Warner Bros., DC et Discovery+ en 4K HDR avec téléchargements offline.",
-        "features": [
-          "Compte personnel",
-          "4K HDR",
-          "Téléchargements"
-        ]
-      },
-      {
-        "id": "crunchyroll-1m",
-        "name": "Crunchyroll",
-        "brandColor": "#F47521",
-        "price": 3000,
-        "duration": "1 mois",
-        "tag": "Simulcast",
-        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
-        "features": [
-          "Compte personnel",
-          "Téléchargements",
-          "Catalogue illimité"
-        ]
-      },
-      {
-        "id": "crunchyroll-2m",
-        "name": "Crunchyroll",
-        "brandColor": "#F47521",
-        "price": 5500,
-        "duration": "2 mois",
-        "tag": "Pack duo",
-        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
-        "features": [
-          "Compte personnel",
-          "Téléchargements",
-          "Catalogue illimité"
-        ]
-      },
-      {
-        "id": "crunchyroll-3m",
-        "name": "Crunchyroll",
-        "brandColor": "#F47521",
-        "price": 8000,
-        "duration": "3 mois",
-        "tag": "Quarter",
-        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
-        "features": [
-          "Compte personnel",
-          "Téléchargements",
-          "Catalogue illimité"
-        ]
-      },
-      {
-        "id": "crunchyroll-6m",
-        "name": "Crunchyroll",
-        "brandColor": "#F47521",
-        "price": 14000,
-        "duration": "6 mois",
-        "tag": "Mid-year",
-        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
-        "features": [
-          "Compte personnel",
-          "Téléchargements",
-          "Catalogue illimité"
-        ]
-      },
-      {
-        "id": "crunchyroll-12m",
-        "name": "Crunchyroll",
-        "brandColor": "#F47521",
-        "price": 25000,
-        "duration": "12 mois",
-        "tag": "Annuel",
-        "description": "Crunchyroll Mega Fan : simulcast 1h après le Japon, compte personnel avec téléchargements.",
-        "features": [
-          "Compte personnel",
-          "Téléchargements",
-          "Catalogue illimité"
         ]
       },
       {
@@ -1661,31 +1689,31 @@
     "headline": "Sauvegardez vos fichiers importants en toute sécurité",
     "offers": [
       {
-        "id": "cloudplus-50go-3m",
-        "name": "iCloud+ 50 Go",
-        "brandColor": "#4285F4",
-        "price": 4900,
-        "duration": "3 mois",
-        "tag": "Stockage Apple",
-        "description": "Forfait iCloud+ 50 Go pour sauvegarder vos photos, vidéos et documents Apple sur tous vos appareils.",
-        "features": [
-          "Accès PC & mobile",
-          "Partage sécurisé",
-          "Support prioritaire"
-        ]
-      },
-      {
-        "id": "cloudplus-200go-3m",
+        "id": "cloudplus-200go-3m-mar",
         "name": "iCloud+ 200 Go",
         "brandColor": "#1A73E8",
         "price": 9900,
         "duration": "3 mois",
-        "tag": "Famille & Pro",
-        "description": "Forfait iCloud+ 200 Go idéal pour partager avec la famille ou gérer des projets volumineux en toute sécurité.",
+        "tag": "200 Go",
+        "description": "Stockage iCloud+ 200 Go parfait pour partager avec toute la famille.",
         "features": [
-          "Large capacité",
-          "Synchronisation auto",
-          "Protection avancée"
+          "Partage familial",
+          "Extensions Maison intelligente",
+          "Sauvegarde multi-appareils"
+        ]
+      },
+      {
+        "id": "cloudplus-50go-3m-mar",
+        "name": "iCloud+ 50 Go",
+        "brandColor": "#0A84FF",
+        "price": 4900,
+        "duration": "3 mois",
+        "tag": "50 Go",
+        "description": "Stockage iCloud+ 50 Go pour sécuriser vos photos et documents sur iPhone, iPad et Mac.",
+        "features": [
+          "Sauvegarde automatique",
+          "Relais privé",
+          "Hide My Email"
         ]
       }
     ]
