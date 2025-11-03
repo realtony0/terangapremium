@@ -233,7 +233,7 @@
     "offers": [
       {
         "id": "icloud-50go",
-        "name": "iCloud+",
+        "name": "iCloud+ 50 Go",
         "brandColor": "#0A84FF",
         "price": 2000,
         "duration": "1 mois",
@@ -247,7 +247,7 @@
       },
       {
         "id": "icloud-200go",
-        "name": "iCloud+",
+        "name": "iCloud+ 200 Go",
         "brandColor": "#0A84FF",
         "price": 3900,
         "duration": "1 mois",
@@ -261,7 +261,7 @@
       },
       {
         "id": "icloud-2to",
-        "name": "iCloud+",
+        "name": "iCloud+ 2 To",
         "brandColor": "#0A84FF",
         "price": 8900,
         "duration": "1 mois",

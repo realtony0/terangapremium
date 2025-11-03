@@ -17,10 +17,12 @@ export default function PopularRibbon() {
             Découvrez toutes nos offres
           </p>
           <h3 className="text-2xl font-semibold text-black">
-            Netflix, Disney+, Apple Music, IPTV, Prime Video… tout est prêt à être activé.
+            Netflix, Disney+, Apple Music, IPTV, Prime Video… tout est prêt à
+            être activé.
           </h3>
           <p className="text-sm text-black/60">
-            Parcourez le catalogue complet et composez votre panier en quelques minutes.
+            Parcourez le catalogue complet et composez votre panier en quelques
+            minutes.
           </p>
         </div>
         <Link
@@ -33,3 +35,4 @@ export default function PopularRibbon() {
     </motion.div>
   );
 }
+
