@@ -5,6 +5,7 @@ import ProcessSection from "@/components/ProcessSection";
 import FAQSection from "@/components/FAQSection";
 import SpotlightSection from "@/components/SpotlightSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import PopularRibbon from "@/components/PopularRibbon";
 import catalog from "@data/sen_abonnement_catalog.json";
 import type { CatalogCategory } from "@/types/catalog";
 import { groupServicesByName } from "@/utils/catalog";
@@ -43,6 +44,8 @@ export default function Home() {
         </div>
 
         <ServicesGallery services={services} limit={6} />
+
+        <PopularRibbon />
 
         <div className="mt-10 flex flex-col gap-4 rounded-[28px] border border-black/5 bg-white p-8 text-black shadow-[0_20px_60px_rgba(15,15,15,0.08)] lg:flex-row lg:items-center lg:justify-between">
           <div>
