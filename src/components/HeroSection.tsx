@@ -112,7 +112,7 @@ export default function HeroSection() {
                     priority
                   />
                   <span className="rounded-full bg-red-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-red-600">
-                    Bestseller
+                    Populaire
                   </span>
                 </div>
 
