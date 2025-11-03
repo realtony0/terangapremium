@@ -12,7 +12,17 @@ export function groupServicesByName(
       
       const existing = map.get(offer.name);
       if (existing) {
-        existing.offers.push(offer);
+        const duplicate = existing.offers.find(
+          (item) => item.duration === offer.duration
+        );
+        if (duplicate) {
+          if (offer.price < duplicate.price) {
+            const index = existing.offers.indexOf(duplicate);
+            existing.offers.splice(index, 1, offer);
+          }
+        } else {
+          existing.offers.push(offer);
+        }
       } else {
         map.set(offer.name, {
           name: offer.name,
