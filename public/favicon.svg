@@ -1,17 +1,16 @@
 <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="teranga-glow" cx="30%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#FF6B6B"/>
-      <stop offset="40%" stop-color="#FF2A47"/>
-      <stop offset="100%" stop-color="#C4102F"/>
-    </radialGradient>
-    <linearGradient id="teranga-accent" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFD166"/>
-      <stop offset="100%" stop-color="#FF6F91"/>
+    <linearGradient id="teranga-blend" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#E50914"/>
+      <stop offset="100%" stop-color="#F97316"/>
     </linearGradient>
+    <radialGradient id="teranga-glow" cx="30%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="rgba(255, 224, 130, 0)"/>
+    </radialGradient>
   </defs>
-  <rect width="64" height="64" rx="20" fill="#050505"/>
-  <rect x="2" y="2" width="60" height="60" rx="18" stroke="url(#teranga-accent)" stroke-width="2" fill="none"/>
-  <circle cx="32" cy="32" r="20" fill="url(#teranga-glow)"/>
-  <path d="M23.5 40.5V23.2h8.7c4.6 0 7.5 2.5 7.5 6.5 0 3-1.9 5-4.8 5.7l6.2 5.1h-5.9l-5-4.4h-2.1v4.4h-4.6zm4.6-8.1h3.5c1.9 0 3-0.9 3-2.5 0-1.6-1.1-2.4-3-2.4h-3.5v4.9z" fill="#FFFFFF" />
+  <rect width="64" height="64" rx="18" fill="#101010"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="16" stroke="url(#teranga-blend)" stroke-width="3" fill="none"/>
+  <circle cx="22" cy="20" r="10" fill="url(#teranga-glow)" opacity="0.5"/>
+  <path d="M29 17c2.2-2.6 5.5-4 9.2-4 7.3 0 13.2 5.6 13.2 12.6 0 4.9-2.7 8.7-7.1 10.6 3.7 1.4 5.8 4.5 5.8 8.4 0 7-6.1 12-13.9 12H19V17h10zm5.3 17.8H29v9.4h6.3c3.6 0 5.8-2 5.8-4.7 0-2.8-2.1-4.7-5.8-4.7zm-0.6-15.5H29v8.6h4.7c3.3 0 5.3-1.8 5.3-4.3s-2-4.3-5.3-4.3z" fill="url(#teranga-blend)"/>
 </svg>
